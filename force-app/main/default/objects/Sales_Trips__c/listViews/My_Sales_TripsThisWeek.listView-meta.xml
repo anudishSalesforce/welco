@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Sales_TripsThisWeek</fullName>
+    <columns>NAME</columns>
+    <columns>Start__c</columns>
+    <columns>End__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>Start__c</field>
+        <operation>lessOrEqual</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <filters>
+        <field>End__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>THIS_WEEK</value>
+    </filters>
+    <label>My Sales Trips This Week</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

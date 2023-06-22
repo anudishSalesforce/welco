@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certificate__c</fullName>
+    <description>Lookup to relate a course to possible certificates</description>
+    <externalId>false</externalId>
+    <label>Certificate</label>
+    <referenceTo>Certification__c</referenceTo>
+    <relationshipLabel>Related Courses</relationshipLabel>
+    <relationshipName>Related_Course</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

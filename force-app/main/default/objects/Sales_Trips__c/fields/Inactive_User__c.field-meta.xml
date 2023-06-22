@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inactive_User__c</fullName>
+    <description>Picklist used to filter the user</description>
+    <externalId>false</externalId>
+    <label>Inactive User</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Inactive__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Anna Thai</fullName>
+                <default>false</default>
+                <label>Anna Thai</label>
+            </value>
+            <value>
+                <fullName>Ashley Goodman</fullName>
+                <default>false</default>
+                <label>Ashley Goodman</label>
+            </value>
+            <value>
+                <fullName>Carolyn McCutcheon</fullName>
+                <default>false</default>
+                <label>Carolyn McCutcheon</label>
+            </value>
+            <value>
+                <fullName>Christopher Ballem</fullName>
+                <default>false</default>
+                <label>Christopher Ballem</label>
+            </value>
+            <value>
+                <fullName>Constance Chung</fullName>
+                <default>false</default>
+                <label>Constance Chung</label>
+            </value>
+            <value>
+                <fullName>Darren Carefoot</fullName>
+                <default>false</default>
+                <label>Darren Carefoot</label>
+            </value>
+            <value>
+                <fullName>Farima Lari</fullName>
+                <default>false</default>
+                <label>Farima Lari</label>
+            </value>
+            <value>
+                <fullName>Harold Jaekel</fullName>
+                <default>false</default>
+                <label>Harold Jaekel</label>
+            </value>
+            <value>
+                <fullName>Jasmine Rattanaviboun</fullName>
+                <default>false</default>
+                <label>Jasmine Rattanaviboun</label>
+            </value>
+            <value>
+                <fullName>Jim Goodridge</fullName>
+                <default>false</default>
+                <label>Jim Goodridge</label>
+            </value>
+            <value>
+                <fullName>Jim Woolford</fullName>
+                <default>false</default>
+                <label>Jim Woolford</label>
+            </value>
+            <value>
+                <fullName>Kaitlin Cormier</fullName>
+                <default>false</default>
+                <label>Kaitlin Cormier</label>
+            </value>
+            <value>
+                <fullName>Kristen Goddard</fullName>
+                <default>false</default>
+                <label>Kristen Goddard</label>
+            </value>
+            <value>
+                <fullName>Lauren Spierenburg</fullName>
+                <default>false</default>
+                <label>Lauren Spierenburg</label>
+            </value>
+            <value>
+                <fullName>Melissa McDicken</fullName>
+                <default>false</default>
+                <label>Melissa McDicken</label>
+            </value>
+            <value>
+                <fullName>Mike Bailey</fullName>
+                <default>false</default>
+                <label>Mike Bailey</label>
+            </value>
+            <value>
+                <fullName>Rebekah Burgeson</fullName>
+                <default>false</default>
+                <label>Rebekah Burgeson</label>
+            </value>
+            <value>
+                <fullName>Ron Nock</fullName>
+                <default>false</default>
+                <label>Ron Nock</label>
+            </value>
+            <value>
+                <fullName>Sara Marshall</fullName>
+                <default>false</default>
+                <label>Sara Marshall</label>
+            </value>
+            <value>
+                <fullName>Tyson Karmin</fullName>
+                <default>false</default>
+                <label>Tyson Karmin</label>
+            </value>
+            <value>
+                <fullName>Venky Narayan</fullName>
+                <default>false</default>
+                <label>Venky Narayan</label>
+            </value>
+            <value>
+                <fullName>Wanda Seeley</fullName>
+                <default>false</default>
+                <label>Wanda Seeley</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Anna Thai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Ashley Goodman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Carolyn McCutcheon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Christopher Ballem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Constance Chung</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Darren Carefoot</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Farima Lari</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Harold Jaekel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Jasmine Rattanaviboun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Jim Goodridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Jim Woolford</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Kaitlin Cormier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Kristen Goddard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Lauren Spierenburg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Melissa McDicken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Mike Bailey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Rebekah Burgeson</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Ron Nock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Sara Marshall</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Tyson Karmin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Venky Narayan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>Wanda Seeley</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

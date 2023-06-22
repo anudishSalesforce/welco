@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Intended_Audience_Groups_Departments__c</fullName>
+    <description>Identifies the groups the content will be delivered to</description>
+    <externalId>false</externalId>
+    <label>Intended Audience - Groups/Departments</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Projects/Programs</fullName>
+                <default>false</default>
+                <label>Projects/Programs</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Senior Management</fullName>
+                <default>false</default>
+                <label>Senior Management</label>
+            </value>
+            <value>
+                <fullName>Service/Shop</fullName>
+                <default>false</default>
+                <label>Service/Shop</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

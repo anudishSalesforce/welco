@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR009_Reason_for_Late_Delivery_Required</fullName>
+    <active>true</active>
+    <description>2018-06-15 If the response to “Repair Delivered on time” is No, please complete the “Reason for Late Delivery” column. This gets reviewed by our Repairable Spares steering committee at Mosaic as per Tracy</description>
+    <errorConditionFormula>AND(
+AND(
+NOT(ISBLANK( Arrival_Date__c )),
+NOT(ISBLANK( Close_Date__c )),
+NOT(ISBLANK(Expected_Completion_Date__c )),
+NOT(ISPICKVAL(Committed_Consigned__c, &quot;Y&quot;)),
+Close_Date__c &gt;  Expected_Completion_Date__c ),
+ISBLANK ( Reason_for_Late_Delivery__c )
+)</errorConditionFormula>
+    <errorDisplayField>Reason_for_Late_Delivery__c</errorDisplayField>
+    <errorMessage>Error WOR009
+Please state why the repair was not completed on time</errorMessage>
+</ValidationRule>

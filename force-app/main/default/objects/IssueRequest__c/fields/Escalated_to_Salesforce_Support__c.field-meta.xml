@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalated_to_Salesforce_Support__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox to indicate any issues to be escalated to Salesforce for additional support</description>
+    <externalId>false</externalId>
+    <label>Escalated to Salesforce Support</label>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bearing_Ceased__c</fullName>
+    <externalId>false</externalId>
+    <label>Bearing - Ceased</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Out of Balance - Shaft Running Offset (bearing or misalignment)</fullName>
+                <default>false</default>
+                <label>Out of Balance - Shaft Running Offset (bearing or misalignment)</label>
+            </value>
+            <value>
+                <fullName>Wearing - Dirt in the Bearing</fullName>
+                <default>false</default>
+                <label>Wearing - Dirt in the Bearing</label>
+            </value>
+            <value>
+                <fullName>Etching - Improper Installation of Bearings</fullName>
+                <default>false</default>
+                <label>Etching - Improper Installation of Bearings</label>
+            </value>
+            <value>
+                <fullName>Overheating - Lack of Lubrication</fullName>
+                <default>false</default>
+                <label>Overheating - Lack of Lubrication</label>
+            </value>
+            <value>
+                <fullName>Overheating - Excessive Lubrication</fullName>
+                <default>false</default>
+                <label>Overheating - Excessive Lubrication</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

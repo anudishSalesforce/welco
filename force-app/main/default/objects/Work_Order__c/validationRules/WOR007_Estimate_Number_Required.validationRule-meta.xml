@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR007_Estimate_Number_Required</fullName>
+    <active>false</active>
+    <description>Estimate Number is required when the equipment has been quoted</description>
+    <errorConditionFormula>AND( 
+OR( 
+ISPICKVAL(X4_Estimate__c, &quot;Estimate Sent to Customer&quot;), 
+ISPICKVAL(CompleteandClose__c, &quot;Repaired, Send back to Customer&quot;), 
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Ordered New&quot;), 
+NOT(ISBLANK(X4_5_Estimate_Actual_Completion__c)) 
+), 
+ISBLANK (Quote_Number__c) 
+)</errorConditionFormula>
+    <errorDisplayField>Quote_Number__c</errorDisplayField>
+    <errorMessage>Error WOR007
+Please enter the Estimate Number</errorMessage>
+</ValidationRule>

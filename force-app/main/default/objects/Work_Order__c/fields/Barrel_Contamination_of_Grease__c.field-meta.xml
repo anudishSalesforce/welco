@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Barrel_Contamination_of_Grease__c</fullName>
+    <externalId>false</externalId>
+    <label>Barrel - Contamination of Grease</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Leak - Lack of Lubrication due to Seals</fullName>
+                <default>false</default>
+                <label>Leak - Lack of Lubrication due to Seals</label>
+            </value>
+            <value>
+                <fullName>Leak - Brine Intrusion into the Barrel</fullName>
+                <default>false</default>
+                <label>Leak - Brine Intrusion into the Barrel</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

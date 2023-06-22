@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR011_CustomerPO_Required</fullName>
+    <active>false</active>
+    <description>Customer PO is required when the repaired equipment has been Approved to be Shipped back to the customer or the customer has decided to order new.</description>
+    <errorConditionFormula>AND( 
+OR( 
+ISPICKVAL(CompleteandClose__c, &quot;Repaired, Send back to Customer&quot;), 
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Ordered New&quot;) 
+), 
+
+ISBLANK ( PO_Number__c ) 
+)</errorConditionFormula>
+    <errorDisplayField>PO_Number__c</errorDisplayField>
+    <errorMessage>Error WOR011
+Please enter the Customer PO</errorMessage>
+</ValidationRule>

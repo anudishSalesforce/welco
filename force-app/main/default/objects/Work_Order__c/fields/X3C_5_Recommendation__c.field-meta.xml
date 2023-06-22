@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X3C_5_Recommendation__c</fullName>
+    <externalId>false</externalId>
+    <label>3C.5 Recommendation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Repair the Unit</fullName>
+                <default>false</default>
+                <label>Repair the Unit</label>
+            </value>
+            <value>
+                <fullName>Do Not Repair the Unit</fullName>
+                <default>false</default>
+                <label>Do Not Repair the Unit</label>
+            </value>
+            <value>
+                <fullName>Unit is Repairable</fullName>
+                <default>false</default>
+                <label>Unit is Repairable</label>
+            </value>
+            <value>
+                <fullName>Unit Not Repairable</fullName>
+                <default>false</default>
+                <label>Unit Not Repairable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

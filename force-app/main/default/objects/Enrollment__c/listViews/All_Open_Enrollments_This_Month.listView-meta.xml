@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Enrollments_This_Month</fullName>
+    <booleanFilter>1 AND (2 OR 3 OR 4)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Student__c</columns>
+    <columns>Course_Session__c</columns>
+    <columns>Completed_Date__c</columns>
+    <columns>Deadline__c</columns>
+    <columns>Status__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Requested,In Review,Approved,Registered,In Progress</value>
+    </filters>
+    <filters>
+        <field>Deadline__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>Completed_Date__c</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>All Open Enrollments - This Month</label>
+</ListView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Ensure proper formatting.
+Example: K2 Mill - Esterhazy</inlineHelpText>
+    <label>Location</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Colonsay - East Mill</fullName>
+                <default>false</default>
+                <label>Colonsay - East Mill</label>
+            </value>
+            <value>
+                <fullName>Colonsay - Mill</fullName>
+                <default>false</default>
+                <label>Colonsay - Mill</label>
+            </value>
+            <value>
+                <fullName>Colonsay - Surface</fullName>
+                <default>false</default>
+                <label>Colonsay - Surface</label>
+            </value>
+            <value>
+                <fullName>K1 Mill - Esterhazy</fullName>
+                <default>false</default>
+                <label>K1 Mill - Esterhazy</label>
+            </value>
+            <value>
+                <fullName>K2 Mill - Esterhazy</fullName>
+                <default>false</default>
+                <label>K2 Mill - Esterhazy</label>
+            </value>
+            <value>
+                <fullName>K2 Mine - Esterhazy</fullName>
+                <default>false</default>
+                <label>K2 Mine - Esterhazy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

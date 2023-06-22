@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+IF(NOT(ISPICKVAL( X6_Order_Parts__c , &quot;&quot;)), &quot;https://welcoexpeditingltd--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068JB000000K7kU&amp;operationContext=DELIVERY&amp;contentId=05TJB000000uah5&amp;page=0&amp;d=/a/JB0000000For/sypZVD4Bn9cgT0GNmszjgkY8cayB5yyCNtDJ_dz7VnY&amp;oid=00DAu0000014Du9&amp;dpt=null&amp;viewId=&quot;,
+
+IF(NOT(ISBLANK( Sent_to_paint__c )), &quot;https://welcoexpeditingltd--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068JB000000K7a5&amp;operationContext=DELIVERY&amp;contentId=05TJB000000uab2&amp;page=0&amp;d=/a/JB0000000Foh/cMYI40IO88sTAhCDOYDEQNQohnnDrqPNhjlfZXDVL7E&amp;oid=00DAu0000014Du9&amp;dpt=null&amp;viewId=&quot;, 
+
+IF(NOT(ISBLANK( Quote_Number__c )), &quot;https://welcoexpeditingltd--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068JB000000K7hk&amp;operationContext=DELIVERY&amp;contentId=05TJB000000uamx&amp;page=0&amp;d=/a/JB0000000Fom/TsRszXC_RuTlNQBW4Pz6J7vx5TziAmwO9.UeId2rgtA&amp;oid=00DAu0000014Du9&amp;dpt=null&amp;viewId=&quot;, 
+
+&quot;https://welcoexpeditingltd--c.documentforce.com/sfc/dist/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068JB000000K7hk&amp;operationContext=DELIVERY&amp;contentId=05TJB000000uamx&amp;page=0&amp;d=/a/JB0000000Fom/TsRszXC_RuTlNQBW4Pz6J7vx5TziAmwO9.UeId2rgtA&amp;oid=00DAu0000014Du9&amp;dpt=null&amp;viewId=&quot;))), &quot;Status&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

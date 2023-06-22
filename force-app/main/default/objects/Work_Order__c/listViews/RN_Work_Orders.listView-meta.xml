@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RN_Work_Orders</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Serial__c</columns>
+    <columns>Equipment_Description__c</columns>
+    <columns>Customer_Item__c</columns>
+    <columns>PO_Number__c</columns>
+    <columns>AgeSystem__c</columns>
+    <columns>CompleteandClose__c</columns>
+    <columns>Close_Date__c</columns>
+    <columns>Job_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.ALIAS</field>
+        <operation>equals</operation>
+        <value>AT</value>
+    </filters>
+    <label>Past Work Orders - RN</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR001_Validate_Customer_Shared_Box_Link</fullName>
+    <active>true</active>
+    <errorConditionFormula>!BEGINS( Box_Folder_Link__c , &quot;https://welco.box.com/s/&quot;)</errorConditionFormula>
+    <errorDisplayField>Box_Folder_Link__c</errorDisplayField>
+    <errorMessage>Error WOR001
+Customer Shared Box Link must be a share link</errorMessage>
+</ValidationRule>

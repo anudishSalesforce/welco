@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR002_CustomerContact_Req_for_Section_1</fullName>
+    <active>true</active>
+    <description>If we are requesting information from the customer, customer contact cannot be blank in the status section. This contact may be different from the primary contact associated with this work order.</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(TEXT( X1_Request_Information_from_Customer__c))),
+ISBLANK( Customer_Contact__c )
+)</errorConditionFormula>
+    <errorDisplayField>Customer_Contact__c</errorDisplayField>
+    <errorMessage>Error WOR002
+Customer Contact for this information is required</errorMessage>
+</ValidationRule>

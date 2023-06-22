@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Open_Requests</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Primary_Object__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Gathering Information,Waiting for Approval,In Development,Testing,In Final Review,Deferred</value>
+    </filters>
+    <label>Open Requests</label>
+    <sharedTo>
+        <role>Marketing_Manager</role>
+    </sharedTo>
+</ListView>

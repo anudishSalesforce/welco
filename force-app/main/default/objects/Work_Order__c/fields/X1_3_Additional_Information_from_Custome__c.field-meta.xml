@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_3_Additional_Information_from_Custome__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>State what information was requested from the customer.</inlineHelpText>
+    <label>1.3 Additional Information from Customer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

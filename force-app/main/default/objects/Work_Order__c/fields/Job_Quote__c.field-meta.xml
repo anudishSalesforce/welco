@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Job_Quote__c</fullName>
+    <description>Combined Work Order # and Welco Estimate # as required by Mosaic&apos;s RS report template</description>
+    <externalId>false</externalId>
+    <formula>IF(NOT(ISBLANK(Quote_Number__c)),Name+&quot; / &quot;+Quote_Number__c,Name)</formula>
+    <label>Job/Quote #</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

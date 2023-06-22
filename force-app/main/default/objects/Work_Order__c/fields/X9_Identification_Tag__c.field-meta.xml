@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X9_Identification_Tag__c</fullName>
+    <externalId>false</externalId>
+    <label>9. Identification Tag</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Identification Tag Completed and Attached</fullName>
+                <default>false</default>
+                <label>Identification Tag Completed and Attached</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

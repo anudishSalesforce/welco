@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Days_to_Quote__c</fullName>
+    <description>Based on time to quote (business days) - number values appear for completed quotes otherwise &quot;Waiting for Quote&quot; as per Mosaic&apos;s RS Template</description>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+NOT(ISBLANK(X4_5_Estimate_Actual_Completion__c)),
+NOT(ISBLANK(Arrival_Date__c ))
+),
+TEXT( Time_to_Quote__c ),
+
+IF(AND( ISBLANK(TEXT(CompleteandClose__c)),ISBLANK(X4_5_Estimate_Actual_Completion__c)),
+&quot;Waiting on Quote&quot;, null)
+)</formula>
+    <label>Days to Quote</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

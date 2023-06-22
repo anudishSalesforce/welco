@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6C_3_Clean_Parts_Additional_Informatio__c</fullName>
+    <description>Free-text field to provide additional information from the cleaning process</description>
+    <externalId>false</externalId>
+    <label>6C.3 (Clean Parts)Additional Information</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

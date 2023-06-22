@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>Stage</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>Shop Assessment</fullName>
+                <default>false</default>
+                <label>Shop Assessment</label>
+            </value>
+            <value>
+                <fullName>Reporting &amp; Quoting</fullName>
+                <default>false</default>
+                <label>Reporting &amp; Quoting</label>
+            </value>
+            <value>
+                <fullName>Confirmed/Shipped</fullName>
+                <default>false</default>
+                <label>Confirmed/Shipped</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Inside_Sales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Logistics / Shipping</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Logistics / Shipping</label>
+            </value>
+            <value>
+                <fullName>Waiting on Approval</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Waiting on Approval</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trevor</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Serial__c</columns>
+    <columns>Equipment_Description__c</columns>
+    <columns>Customer_Item__c</columns>
+    <columns>PO_Number__c</columns>
+    <columns>AgeSystem__c</columns>
+    <columns>CompleteandClose__c</columns>
+    <columns>Arrival_Date__c</columns>
+    <columns>Close_Date__c</columns>
+    <columns>Unit_Actual_Scrap_Return_Date__c</columns>
+    <columns>Job_Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account__c</field>
+        <operation>contains</operation>
+        <value>Mosaic Potash,Mosaic Canada ULC</value>
+    </filters>
+    <filters>
+        <field>Contact__c</field>
+        <operation>contains</operation>
+        <value>Trevor</value>
+    </filters>
+    <label>Mosaic Work Orders - Trevor W.</label>
+    <sharedTo>
+        <group>InsideSales</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MEM002_Lock_Approved_Status</fullName>
+    <active>true</active>
+    <description>Only Senior Managers can approve Memberships/Subscriptions</description>
+    <errorConditionFormula>(ISNEW()
+|| 
+ISCHANGED( Status__c )
+)
+
+&amp;&amp;
+ISPICKVAL(Status__c , &quot;Status&quot;)
+/*if Status is changed to Approved*/
+
+&amp;&amp; 
+ $Profile.Name &lt;&gt; &quot;Custom: Management&quot;
+/*make sure it&apos;s done by management*/</errorConditionFormula>
+    <errorMessage>MEM002 You do not have the permission to update the status to Approved.</errorMessage>
+</ValidationRule>

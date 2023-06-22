@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Initiated_By__c</fullName>
+    <description>Picklist to identify the department/role who initiated the decision</description>
+    <externalId>false</externalId>
+    <label>Initiated By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Engineering</fullName>
+                <default>false</default>
+                <label>Engineering</label>
+            </value>
+            <value>
+                <fullName>Inside Sales</fullName>
+                <default>false</default>
+                <label>Inside Sales</label>
+            </value>
+            <value>
+                <fullName>Management (President, Vice Presidents)</fullName>
+                <default>false</default>
+                <label>Management (President, Vice Presidents)</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+            <value>
+                <fullName>Shipping</fullName>
+                <default>false</default>
+                <label>Shipping</label>
+            </value>
+            <value>
+                <fullName>System Administrator</fullName>
+                <default>false</default>
+                <label>System Administrator</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

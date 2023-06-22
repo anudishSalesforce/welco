@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Content_Type__c</fullName>
+    <description>Tracks the type of Content/message being delivered</description>
+    <externalId>false</externalId>
+    <label>Content Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Advertisement</fullName>
+                <default>false</default>
+                <label>Advertisement</label>
+            </value>
+            <value>
+                <fullName>Salesforce Tips &amp; Tricks</fullName>
+                <default>true</default>
+                <label>Salesforce Tips &amp; Tricks</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

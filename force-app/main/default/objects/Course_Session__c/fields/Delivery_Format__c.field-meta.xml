@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Format__c</fullName>
+    <description>How the course will be delivered</description>
+    <externalId>false</externalId>
+    <label>Delivery Format</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Classroom</fullName>
+                <default>false</default>
+                <label>Classroom</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>In-House</fullName>
+                <default>false</default>
+                <label>In-House</label>
+            </value>
+            <value>
+                <fullName>Lunch &amp; Learn</fullName>
+                <default>false</default>
+                <label>Lunch &amp; Learn</label>
+            </value>
+            <value>
+                <fullName>Off-Site</fullName>
+                <default>false</default>
+                <label>Off-Site</label>
+            </value>
+            <value>
+                <fullName>Online</fullName>
+                <default>false</default>
+                <label>Online</label>
+            </value>
+            <value>
+                <fullName>Seminar</fullName>
+                <default>false</default>
+                <label>Seminar/Workshop</label>
+            </value>
+            <value>
+                <fullName>Trailhead</fullName>
+                <default>false</default>
+                <label>Trailhead</label>
+            </value>
+            <value>
+                <fullName>Virtual Classroom</fullName>
+                <default>false</default>
+                <label>Virtual Classroom</label>
+            </value>
+            <value>
+                <fullName>Webinar</fullName>
+                <default>false</default>
+                <label>Webinar</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <controllingFieldValue>External - Supplier</controllingFieldValue>
+            <controllingFieldValue>External - Other</controllingFieldValue>
+            <valueName>Conference</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <controllingFieldValue>External - Supplier</controllingFieldValue>
+            <valueName>In-House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <controllingFieldValue>External - Supplier</controllingFieldValue>
+            <controllingFieldValue>External - Other</controllingFieldValue>
+            <valueName>Lunch &amp; Learn</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <controllingFieldValue>External - Supplier</controllingFieldValue>
+            <valueName>Off-Site</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <controllingFieldValue>External - Supplier</controllingFieldValue>
+            <controllingFieldValue>External - Other</controllingFieldValue>
+            <valueName>Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <valueName>Trailhead</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal</controllingFieldValue>
+            <controllingFieldValue>External - Supplier</controllingFieldValue>
+            <controllingFieldValue>External - Other</controllingFieldValue>
+            <valueName>Webinar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External - Other</controllingFieldValue>
+            <valueName>Classroom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>External - Other</controllingFieldValue>
+            <valueName>Virtual Classroom</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

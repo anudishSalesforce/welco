@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturer__c</fullName>
+    <externalId>false</externalId>
+    <label>Manufacturer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>3P Prinz</fullName>
+                <default>false</default>
+                <label>3P Prinz</label>
+            </value>
+            <value>
+                <fullName>A.R. Thomson</fullName>
+                <default>false</default>
+                <label>A.R. Thomson</label>
+            </value>
+            <value>
+                <fullName>Albany Pump</fullName>
+                <default>false</default>
+                <label>Albany Pump</label>
+            </value>
+            <value>
+                <fullName>Allight Primax</fullName>
+                <default>false</default>
+                <label>Allight Primax</label>
+            </value>
+            <value>
+                <fullName>BDI</fullName>
+                <default>false</default>
+                <label>BDI</label>
+            </value>
+            <value>
+                <fullName>BJM Pumps</fullName>
+                <default>false</default>
+                <label>BJM Pumps</label>
+            </value>
+            <value>
+                <fullName>Buffalo Wire</fullName>
+                <default>false</default>
+                <label>Buffalo Wire</label>
+            </value>
+            <value>
+                <fullName>Camcorp Inc.</fullName>
+                <default>false</default>
+                <label>Camcorp Inc.</label>
+            </value>
+            <value>
+                <fullName>CMI</fullName>
+                <default>false</default>
+                <label>CMI</label>
+            </value>
+            <value>
+                <fullName>Cook Legacy</fullName>
+                <default>false</default>
+                <label>Cook Legacy</label>
+            </value>
+            <value>
+                <fullName>CTI</fullName>
+                <default>false</default>
+                <label>CTI</label>
+            </value>
+            <value>
+                <fullName>Cunningham</fullName>
+                <default>false</default>
+                <label>Cunningham</label>
+            </value>
+            <value>
+                <fullName>Delta Screens</fullName>
+                <default>false</default>
+                <label>Delta Screens</label>
+            </value>
+            <value>
+                <fullName>ERIEZ</fullName>
+                <default>false</default>
+                <label>ERIEZ</label>
+            </value>
+            <value>
+                <fullName>Flexicon</fullName>
+                <default>false</default>
+                <label>Flexicon</label>
+            </value>
+            <value>
+                <fullName>FLSmidth Krebs</fullName>
+                <default>false</default>
+                <label>FLSmidth Krebs</label>
+            </value>
+            <value>
+                <fullName>FLSPT</fullName>
+                <default>false</default>
+                <label>FLSPT</label>
+            </value>
+            <value>
+                <fullName>HammerTek</fullName>
+                <default>false</default>
+                <label>HammerTek</label>
+            </value>
+            <value>
+                <fullName>Hanjin Pumps</fullName>
+                <default>false</default>
+                <label>Hanjin Pumps</label>
+            </value>
+            <value>
+                <fullName>HY-TRAN</fullName>
+                <default>false</default>
+                <label>HY-TRAN</label>
+            </value>
+            <value>
+                <fullName>JADCO</fullName>
+                <default>false</default>
+                <label>JADCO</label>
+            </value>
+            <value>
+                <fullName>James Brinkley</fullName>
+                <default>false</default>
+                <label>James Brinkley</label>
+            </value>
+            <value>
+                <fullName>Koshin Pumps</fullName>
+                <default>false</default>
+                <label>Koshin Pumps</label>
+            </value>
+            <value>
+                <fullName>MCI</fullName>
+                <default>false</default>
+                <label>MCI</label>
+            </value>
+            <value>
+                <fullName>McLanahan</fullName>
+                <default>false</default>
+                <label>McLanahan</label>
+            </value>
+            <value>
+                <fullName>Miller Leaman</fullName>
+                <default>false</default>
+                <label>Miller Leaman</label>
+            </value>
+            <value>
+                <fullName>Mod Power</fullName>
+                <default>false</default>
+                <label>Mod Power</label>
+            </value>
+            <value>
+                <fullName>Mody Pumps</fullName>
+                <default>false</default>
+                <label>Mody Pumps</label>
+            </value>
+            <value>
+                <fullName>Norris Screens</fullName>
+                <default>false</default>
+                <label>Norris Screens</label>
+            </value>
+            <value>
+                <fullName>Phoenix</fullName>
+                <default>false</default>
+                <label>Phoenix</label>
+            </value>
+            <value>
+                <fullName>Polaris</fullName>
+                <default>false</default>
+                <label>Polaris</label>
+            </value>
+            <value>
+                <fullName>Rotork</fullName>
+                <default>false</default>
+                <label>Rotork</label>
+            </value>
+            <value>
+                <fullName>Ruhrpumpen</fullName>
+                <default>false</default>
+                <label>Ruhrpumpen</label>
+            </value>
+            <value>
+                <fullName>Saint Gobain</fullName>
+                <default>false</default>
+                <label>Saint Gobain</label>
+            </value>
+            <value>
+                <fullName>Schurco</fullName>
+                <default>false</default>
+                <label>Schurco</label>
+            </value>
+            <value>
+                <fullName>Simflo</fullName>
+                <default>false</default>
+                <label>Simflo</label>
+            </value>
+            <value>
+                <fullName>Sulzer Pumps</fullName>
+                <default>false</default>
+                <label>Sulzer Pumps</label>
+            </value>
+            <value>
+                <fullName>Tabor Machine</fullName>
+                <default>false</default>
+                <label>Tabor Machine</label>
+            </value>
+            <value>
+                <fullName>TEMA</fullName>
+                <default>false</default>
+                <label>TEMA</label>
+            </value>
+            <value>
+                <fullName>Thurston Machine</fullName>
+                <default>false</default>
+                <label>Thurston Machine</label>
+            </value>
+            <value>
+                <fullName>Tyco</fullName>
+                <default>false</default>
+                <label>Tyco</label>
+            </value>
+            <value>
+                <fullName>Univeyor</fullName>
+                <default>false</default>
+                <label>Univeyor</label>
+            </value>
+            <value>
+                <fullName>Warman</fullName>
+                <default>false</default>
+                <label>Warman</label>
+            </value>
+            <value>
+                <fullName>Weir</fullName>
+                <default>false</default>
+                <label>Weir</label>
+            </value>
+            <value>
+                <fullName>Xylem</fullName>
+                <default>false</default>
+                <label>Xylem</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

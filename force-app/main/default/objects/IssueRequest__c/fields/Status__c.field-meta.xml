@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <description>Picklist field to track current status of request</description>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Gathering Information</fullName>
+                <default>false</default>
+                <label>Gathering Information</label>
+            </value>
+            <value>
+                <fullName>Waiting for Approval</fullName>
+                <default>false</default>
+                <label>Waiting for Approval</label>
+            </value>
+            <value>
+                <fullName>In Development</fullName>
+                <default>false</default>
+                <label>In Development</label>
+            </value>
+            <value>
+                <fullName>Testing</fullName>
+                <default>false</default>
+                <label>Testing</label>
+            </value>
+            <value>
+                <fullName>In Final Review</fullName>
+                <default>false</default>
+                <label>In Final Review</label>
+            </value>
+            <value>
+                <fullName>Resolved</fullName>
+                <default>false</default>
+                <label>Deployed/Resolved</label>
+            </value>
+            <value>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+                <label>Backlogged/Deferred</label>
+            </value>
+            <value>
+                <fullName>Rejected/Cancelled</fullName>
+                <default>false</default>
+                <label>Rejected/Cancelled</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Circuit__c</fullName>
+    <externalId>false</externalId>
+    <label>Circuit</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cyclone Feed</fullName>
+                <default>false</default>
+                <label>Cyclone Feed</label>
+            </value>
+            <value>
+                <fullName>Heavy Media</fullName>
+                <default>false</default>
+                <label>Heavy Media</label>
+            </value>
+            <value>
+                <fullName>Tailings</fullName>
+                <default>false</default>
+                <label>Tailings</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

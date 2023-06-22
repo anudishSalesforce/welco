@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requests_with_Outstanding_Decisions</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Reason__c</columns>
+    <columns>Description__c</columns>
+    <columns>Admin_Notes__c</columns>
+    <columns>Primary_Object__c</columns>
+    <columns>Requested_Date__c</columns>
+    <columns>Priority__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Outstanding_Decisions__c</field>
+        <operation>greaterThan</operation>
+        <value>0</value>
+    </filters>
+    <label>Requests with Outstanding Decisions</label>
+    <sharedTo>
+        <role>Marketing_Manager</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shaft_Sleeve_Failure_to_Protect_Shaft__c</fullName>
+    <externalId>false</externalId>
+    <label>Shaft Sleeve - Failure to Protect Shaft</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Cracking Wearing - Misalignment</fullName>
+                <default>false</default>
+                <label>Cracking Wearing - Misalignment</label>
+            </value>
+            <value>
+                <fullName>Excessive Leaking - Gland too Tight, Resulting in no Flow through Packing</fullName>
+                <default>false</default>
+                <label>Excessive Leaking - Gland too Tight, Resulting in no Flow through Packing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

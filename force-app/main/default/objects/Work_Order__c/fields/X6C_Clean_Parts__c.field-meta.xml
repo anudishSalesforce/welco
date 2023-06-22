@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X6C_Clean_Parts__c</fullName>
+    <description>Used to define status of parts cleaning by the shop</description>
+    <externalId>false</externalId>
+    <label>6C. Clean Parts</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Parts Cleaning in Progress</fullName>
+                <default>false</default>
+                <label>Parts Cleaning in Progress</label>
+            </value>
+            <value>
+                <fullName>Parts Cleaning Completed</fullName>
+                <default>false</default>
+                <label>Parts Cleaning Completed</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outstanding_Decisions__c</fullName>
+    <description>Calculates the # of Outstanding Decisions/Approval Requests</description>
+    <externalId>false</externalId>
+    <label># Outstanding Decisions</label>
+    <summaryFilterItems>
+        <field>Decision__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Open</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Decision__c.Related_Issue_Request__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

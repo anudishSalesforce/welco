@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Impeller_Failure_to_Transfer_Energy__c</fullName>
+    <externalId>false</externalId>
+    <label>Impeller - Failure to Transfer Energy</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Cavitation - Pump not Primed</fullName>
+                <default>false</default>
+                <label>Cavitation - Pump not Primed</label>
+            </value>
+            <value>
+                <fullName>Cavitation - Suction Lift too High</fullName>
+                <default>false</default>
+                <label>Cavitation - Suction Lift too High</label>
+            </value>
+            <value>
+                <fullName>Cavitation - Intake Pipe Insufficiently Submerged</fullName>
+                <default>false</default>
+                <label>Cavitation - Intake Pipe Insufficiently Submerged</label>
+            </value>
+            <value>
+                <fullName>Cavitation - Intake Pipe Diameter too Small or Length Intake Pipe too Long</fullName>
+                <default>false</default>
+                <label>Cavitation - Intake Pipe Diameter too Small or Length Intake Pipe too Long</label>
+            </value>
+            <value>
+                <fullName>Crack/Erosion/Cavitation - Impeller Damaged or Worn</fullName>
+                <default>false</default>
+                <label>Crack/Erosion/Cavitation - Impeller Damaged or Worn</label>
+            </value>
+            <value>
+                <fullName>Crack/Erosion - Impeller Rubbing on Volute</fullName>
+                <default>false</default>
+                <label>Crack/Erosion - Impeller Rubbing on Volute</label>
+            </value>
+            <value>
+                <fullName>Crack/Erosion - Impeller out of Balance, causing Vibration (Casting)</fullName>
+                <default>false</default>
+                <label>Crack/Erosion - Impeller out of Balance, causing Vibration (Casting)</label>
+            </value>
+            <value>
+                <fullName>Out of Balance - Foreign Matter in Impeller</fullName>
+                <default>false</default>
+                <label>Out of Balance - Foreign Matter in Impeller</label>
+            </value>
+            <value>
+                <fullName>Out of Balance - Loose Shaft/Wear Ring Damage</fullName>
+                <default>false</default>
+                <label>Out of Balance - Loose Shaft/Wear Ring Damage</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

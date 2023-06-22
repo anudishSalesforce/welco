@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsCurrentUser__c</fullName>
+    <description>Identifies if the current user is the account owner of the work order</description>
+    <externalId>false</externalId>
+    <formula>IF( Account__r.OwnerId = $User.Id, True, False)</formula>
+    <label>AccountOwnerIsCurrentUser</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

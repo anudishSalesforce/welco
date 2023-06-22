@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>General</fullName>
+    <active>true</active>
+    <description>General issues and requests</description>
+    <label>General</label>
+    <picklistValues>
+        <picklist>Platform__c</picklist>
+        <values>
+            <fullName>3rd Party Application</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Classic %26 Lightning</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Lightning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_Object__c</picklist>
+        <values>
+            <fullName>Accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Sky Cellar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Box</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaign Members</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaigns %26 Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campaigns %26 Events - Marketing Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cases</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certifications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chatter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Content</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courses %26 Sessions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courses %26 Sessions - Courses Expenses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dashboards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decisions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate Record Items%2FSets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrollments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geopointe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Picklists and Actions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Groups</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leads</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lightning App Page</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memberships %26 Subscriptions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NCRs - NOT DEPLOYED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nav Bar Favourites</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Requests</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Trips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tasks Activities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User Badges</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UsersPeople</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Work Orders</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High - Affects immediate functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low - Nice to have</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium - Need to have</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Cost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duplicate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Scope</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved on its Own%2FUser Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workaround Identified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Request_Submitted_by__c</picklist>
+        <values>
+            <fullName>Accounting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inside Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Management %28President%2C Vice Presidents%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>System Administrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Deferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gathering Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected%2FCancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resolved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waiting for Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Topic__c</picklist>
+        <values>
+            <fullName>CRM Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

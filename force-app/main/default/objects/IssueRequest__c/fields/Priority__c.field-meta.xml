@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Priority__c</fullName>
+    <description>Identify the level of urgency for the request</description>
+    <externalId>false</externalId>
+    <label>Priority</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>High - Affects immediate functionality</fullName>
+                <default>false</default>
+                <label>High - Affects immediate functionality</label>
+            </value>
+            <value>
+                <fullName>Medium - Need to have</fullName>
+                <default>false</default>
+                <label>Medium - Need to have</label>
+            </value>
+            <value>
+                <fullName>Low - Nice to have</fullName>
+                <default>false</default>
+                <label>Low - Nice to have</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

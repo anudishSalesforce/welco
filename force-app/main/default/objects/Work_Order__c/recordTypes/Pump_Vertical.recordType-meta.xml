@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pump_Vertical</fullName>
+    <active>true</active>
+    <description>Vertical Pump Repair</description>
+    <label>Pump - Vertical</label>
+    <picklistValues>
+        <picklist>Barrel_Contamination_of_Grease__c</picklist>
+        <values>
+            <fullName>Leak - Brine Intrusion into the Barrel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leak - Lack of Lubrication due to Seals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Bearing_Ceased__c</picklist>
+        <values>
+            <fullName>Etching - Improper Installation of Bearings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Out of Balance - Shaft Running Offset %28bearing or misalignment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheating - Excessive Lubrication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheating - Lack of Lubrication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wearing - Dirt in the Bearing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Casing_Gaskets_Leak__c</picklist>
+        <values>
+            <fullName>Leak - Casing Gasket Defects%2C Permitting Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Circuit__c</picklist>
+        <values>
+            <fullName>Cyclone Feed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heavy Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tailings</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Committed_Consigned__c</picklist>
+        <values>
+            <fullName>N</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Y</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CompleteandClose__c</picklist>
+        <values>
+            <fullName>Not Repaired%2C Customer to Recycle Parts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Repaired%2C Ordered New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Repaired%2C Scrap at Welco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Repaired%2C Send back to Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repaired%2C Send back to Customer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Engineering_Inspection__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exceeded_Maximum_Wear_Life__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Failure_Mode__c</picklist>
+        <values>
+            <fullName>Back Liner Corrosion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back Liner Corrosion %26 Erosion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Back Liner Wear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bearing Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casing Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Discharge Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Wear %28ideal failure mode%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impeller Corrosion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impeller Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impeller Wear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Over-adjusted Wear Ring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Frame Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seal Failure %28centrifugal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seal Failure %28mechanical seal%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seal Failure %28water flush%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaft Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suction Liner Corrosion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suction Liner Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suction Liner Wear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Volute Liner Wear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wear Ring Fracture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wet End Seal Failure</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Impeller_Failure_to_Transfer_Energy__c</picklist>
+        <values>
+            <fullName>Cavitation - Intake Pipe Diameter too Small or Length Intake Pipe too Long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cavitation - Intake Pipe Insufficiently Submerged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cavitation - Pump not Primed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cavitation - Suction Lift too High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crack%2FErosion - Impeller Rubbing on Volute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crack%2FErosion - Impeller out of Balance%2C causing Vibration %28Casting%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crack%2FErosion%2FCavitation - Impeller Damaged or Worn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Out of Balance - Foreign Matter in Impeller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of Balance - Loose Shaft%2FWear Ring Damage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Inspection_Report_Completed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location__c</picklist>
+        <values>
+            <fullName>Colonsay - East Mill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colonsay - Mill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colonsay - Surface</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K1 Mill - Esterhazy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2 Mill - Esterhazy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>K2 Mine - Esterhazy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Manufacturer__c</picklist>
+        <values>
+            <fullName>3P Prinz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>A%2ER%2E Thomson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Albany Pump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Allight Primax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BDI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BJM Pumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Buffalo Wire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Camcorp Inc%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cook Legacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cunningham</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delta Screens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERIEZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLSPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLSmidth Krebs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flexicon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HY-TRAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HammerTek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hanjin Pumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JADCO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>James Brinkley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Koshin Pumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>McLanahan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Miller Leaman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mod Power</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mody Pumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norris Screens</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phoenix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polaris</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotork</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ruhrpumpen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Gobain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schurco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simflo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sulzer Pumps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEMA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tabor Machine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thurston Machine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Univeyor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Xylem</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motor_Failure_to_Turnover__c</picklist>
+        <values>
+            <fullName>Cracks%2FWear - Worn Sheaves</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Failure to Start - Cable Damages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Overheating - Potash Dust</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheating - Uneven Foundation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rotor Damage - Water Intrusion into the Windings</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motor_Short_Out_the_Motor__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Over Current Drawn - Voltage Surge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Packing_Lack_of_Heat_Transfer__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Overheating - Lack of Lubrication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Overheating - Packing Improperly Installed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority__c</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shaft_Failure_to_Transmit_Power__c</picklist>
+        <values>
+            <fullName>Crack%2FBroken Keyway - Overloading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crack%2FBroken Shaft - Torsional Fatigue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cracking Wearing - Packing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shaft_Sleeve_Failure_to_Protect_Shaft__c</picklist>
+        <values>
+            <fullName>Cracking Wearing - Misalignment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive Leaking - Gland too Tight%2C Resulting in no Flow through Packing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stage__c</picklist>
+        <values>
+            <fullName>Confirmed%2FShipped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting %26 Quoting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shop Assessment</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stuffing_Box_Breach_of_Containment__c</picklist>
+        <values>
+            <fullName>Excessive Leaking - Dust in the Oil for Packing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Excessive Leaking - Excessive Clearance at Bottom of Stuffing Box%2C Forcing Packing into Pumping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Warranty__c</picklist>
+        <values>
+            <fullName>Unit Covered Under Warranty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit Not Covered Under Warranty</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1_Drawings__c</picklist>
+        <values>
+            <fullName>Drawings Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Drawings Requested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X1_Request_Information_from_Customer__c</picklist>
+        <values>
+            <fullName>Information from CustomerReceived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information from CustomerRequested</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X2_Inspection__c</picklist>
+        <values>
+            <fullName>Inspection Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection in Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3C_5_Recommendation__c</picklist>
+        <values>
+            <fullName>Do Not Repair the Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair the Unit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit Not Repairable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit is Repairable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X3_Inspection_Report__c</picklist>
+        <values>
+            <fullName>Inspection Report Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inspection Report in Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X4_Estimate__c</picklist>
+        <values>
+            <fullName>Estimate Sent to Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estimate in Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X5_2A_PO_Recent__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X5_Customer_Purchase_Order__c</picklist>
+        <values>
+            <fullName>Client Approved - New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Approved - Rebuild</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Client Approved - Scrap</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6A_1_Parts_Ordered__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6B_Send_Parts_to_Third_Party__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts Received from Third Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts Sent to Third Party</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6C_1_Clean_Parts__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6C_Clean_Parts__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts Cleaning Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts Cleaning in Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6_Order_Parts__c</picklist>
+        <values>
+            <fullName>Not Applicable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts Ordered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parts Received</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X6__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X7_Unit_Repair__c</picklist>
+        <values>
+            <fullName>Ready to be Repaired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair in Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X8_Quality_Control_Check__c</picklist>
+        <values>
+            <fullName>Quality Control Check Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quality Control Check in Progress</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>X9_Identification_Tag__c</picklist>
+        <values>
+            <fullName>Identification Tag Completed and Attached</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

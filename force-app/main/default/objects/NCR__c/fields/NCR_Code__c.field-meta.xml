@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NCR_Code__c</fullName>
+    <externalId>false</externalId>
+    <label>NCR Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MECH-Mechanical</fullName>
+                <default>false</default>
+                <label>MECH-Mechanical</label>
+            </value>
+            <value>
+                <fullName>MISL-Mislabeled</fullName>
+                <default>false</default>
+                <label>MISL-Mislabeled</label>
+            </value>
+            <value>
+                <fullName>SPEC-Specifications</fullName>
+                <default>false</default>
+                <label>SPEC-Specifications</label>
+            </value>
+            <value>
+                <fullName>SHIP-Shipping Discrepancy</fullName>
+                <default>false</default>
+                <label>SHIP-Shipping Discrepancy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

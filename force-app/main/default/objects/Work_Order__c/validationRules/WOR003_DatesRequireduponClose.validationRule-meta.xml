@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR003_DatesRequireduponClose</fullName>
+    <active>true</active>
+    <description>Section 5 and Section 4 Completion Dates Required by Mosaic</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK( X5_1_Expected_PO_Approval__c )),
+OR(
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Scrap at Welco&quot;),
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Send Back to Customer&quot;),
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Customer to Recycle Parts&quot;),
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Ordered New&quot;)
+),
+OR(
+ISBLANK(X4_5_Estimate_Actual_Completion__c),
+AND(
+ISBLANK( X5_2B_Actual_PO_Decline__c ),
+ISBLANK( X52AActualPOApproval__c )
+)
+)
+)</errorConditionFormula>
+    <errorDisplayField>X4_5_Estimate_Actual_Completion__c</errorDisplayField>
+    <errorMessage>Error WOR003
+The following dates are required for closed work orders: 
+4.5, 5.2</errorMessage>
+</ValidationRule>

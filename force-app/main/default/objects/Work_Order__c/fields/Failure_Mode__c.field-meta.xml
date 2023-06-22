@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Failure_Mode__c</fullName>
+    <externalId>false</externalId>
+    <label>Failure Mode</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General Wear (ideal failure mode)</fullName>
+                <default>false</default>
+                <label>General Wear (ideal failure mode)</label>
+            </value>
+            <value>
+                <fullName>Seal Failure (water flush)</fullName>
+                <default>false</default>
+                <label>Seal Failure (water flush)</label>
+            </value>
+            <value>
+                <fullName>Seal Failure (centrifugal)</fullName>
+                <default>false</default>
+                <label>Seal Failure (centrifugal)</label>
+            </value>
+            <value>
+                <fullName>Seal Failure (mechanical seal)</fullName>
+                <default>false</default>
+                <label>Seal Failure (mechanical seal)</label>
+            </value>
+            <value>
+                <fullName>Over-adjusted Wear Ring</fullName>
+                <default>false</default>
+                <label>Over-adjusted Wear Ring</label>
+            </value>
+            <value>
+                <fullName>Back Liner Wear</fullName>
+                <default>false</default>
+                <label>Back Liner Wear</label>
+            </value>
+            <value>
+                <fullName>Impeller Wear</fullName>
+                <default>false</default>
+                <label>Impeller Wear</label>
+            </value>
+            <value>
+                <fullName>Impeller Fracture</fullName>
+                <default>false</default>
+                <label>Impeller Fracture</label>
+            </value>
+            <value>
+                <fullName>Suction Liner Wear</fullName>
+                <default>false</default>
+                <label>Suction Liner Wear</label>
+            </value>
+            <value>
+                <fullName>Bearing Failure</fullName>
+                <default>false</default>
+                <label>Bearing Failure</label>
+            </value>
+            <value>
+                <fullName>Volute Liner Wear</fullName>
+                <default>false</default>
+                <label>Volute Liner Wear</label>
+            </value>
+            <value>
+                <fullName>Power Frame Fracture</fullName>
+                <default>false</default>
+                <label>Power Frame Fracture</label>
+            </value>
+            <value>
+                <fullName>Casing Fracture</fullName>
+                <default>false</default>
+                <label>Casing Fracture</label>
+            </value>
+            <value>
+                <fullName>Discharge Fracture</fullName>
+                <default>false</default>
+                <label>Discharge Fracture</label>
+            </value>
+            <value>
+                <fullName>Suction Liner Fracture</fullName>
+                <default>false</default>
+                <label>Suction Liner Fracture</label>
+            </value>
+            <value>
+                <fullName>Wear Ring Fracture</fullName>
+                <default>false</default>
+                <label>Wear Ring Fracture</label>
+            </value>
+            <value>
+                <fullName>Back Liner Corrosion &amp; Erosion</fullName>
+                <default>false</default>
+                <label>Back Liner Corrosion &amp; Erosion</label>
+            </value>
+            <value>
+                <fullName>Wet End Seal Failure</fullName>
+                <default>false</default>
+                <label>Wet End Seal Failure</label>
+            </value>
+            <value>
+                <fullName>Shaft Fracture</fullName>
+                <default>false</default>
+                <label>Shaft Fracture</label>
+            </value>
+            <value>
+                <fullName>Impeller Corrosion</fullName>
+                <default>false</default>
+                <label>Impeller Corrosion</label>
+            </value>
+            <value>
+                <fullName>Suction Liner Corrosion</fullName>
+                <default>false</default>
+                <label>Suction Liner Corrosion</label>
+            </value>
+            <value>
+                <fullName>Back Liner Corrosion</fullName>
+                <default>false</default>
+                <label>Back Liner Corrosion</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

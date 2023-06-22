@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category__c</fullName>
+    <description>Identifies category the certification falls under</description>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Equipment Operation</fullName>
+                <default>false</default>
+                <label>Equipment Operation (e.g. Forklift)</label>
+            </value>
+            <value>
+                <fullName>Health &amp; Safety</fullName>
+                <default>false</default>
+                <label>Health &amp; Safety (e.g. First Aid)</label>
+            </value>
+            <value>
+                <fullName>Industry &amp; Standards</fullName>
+                <default>false</default>
+                <label>Industry &amp; Standards (e.g. ISO, WHMIS)</label>
+            </value>
+            <value>
+                <fullName>Maintenance &amp; Repair</fullName>
+                <default>false</default>
+                <label>Maintenance &amp; Repair (e.g. Metal Detector Verification)</label>
+            </value>
+            <value>
+                <fullName>Product Knowledge</fullName>
+                <default>false</default>
+                <label>Product Knowledge (e.g. Pump)</label>
+            </value>
+            <value>
+                <fullName>Systems &amp; Software</fullName>
+                <default>false</default>
+                <label>Systems &amp; Software (e.g. Salesforce, Excel)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

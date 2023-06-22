@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Status__c</fullName>
+    <description>Formula-Text field that notes the current status based on the existing statuses:
+1. Request Information from Customer,
+4. Estimate
+5. Customer Purchase Order
+7. Unit Repair
+10. Complete and Close
+This is required for Mosaic&apos;s RS Template</description>
+    <externalId>false</externalId>
+    <formula>IF(
+OR(
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Scrap at Welco&quot;),
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Send back at Customer&quot;),
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Customer to Recycle Parts&quot;),
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Ordered New&quot;)
+), &quot;Not Repairable&quot;,
+
+IF(
+OR(
+ISPICKVAL(CompleteandClose__c, &quot;Repaired, Send Back to Customer&quot;),
+NOT(ISBLANK(TEXT(Close_Date__c))) ),
+&quot;Repair Completed&quot;,
+
+IF(
+ISPICKVAL( X1_Request_Information_from_Customer__c, &quot;Information from Customer Requested&quot;), &quot;Waiting on Info from Mosaic&quot;,
+
+IF(
+OR(
+NOT(ISBLANK(TEXT(X6_Order_Parts__c))),
+NOT(ISBLANK(TEXT(X52AActualPOApproval__c))),
+NOT(ISBLANK(TEXT(Committed_Approval_Date__c))),
+ISPICKVAL(X5_Customer_Purchase_Order__c, &quot;Customer Purchase Order Received&quot;),
+ISPICKVAL(X7_Unit_Repair__c, &quot;Repair in Progress&quot;)), &quot;Repair in Progress&quot;,
+
+IF(
+OR(
+NOT(ISBLANK(TEXT(Committed_Approval_Date__c))),
+ISPICKVAL(X5_Customer_Purchase_Order__c, &quot;Waiting for Customer Purchase Order&quot;),
+ISPICKVAL(X4_Estimate__c, &quot;Estimate Sent to Customer&quot;)),
+&quot;Waiting Approval&quot;,
+
+IF(
+OR(
+NOT(ISBLANK(TEXT(X1_Drawings__c))),
+NOT(ISBLANK(TEXT(X2_Inspection__c))),
+NOT(ISBLANK(TEXT(X2_4_Final_Engineering_Report_Uploaded__c))),
+ISPICKVAL(X4_Estimate__c, &quot;Estimate in Progress&quot;)), &quot;Waiting Quote&quot;,
+null)
+)))))</formula>
+    <label>Current Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

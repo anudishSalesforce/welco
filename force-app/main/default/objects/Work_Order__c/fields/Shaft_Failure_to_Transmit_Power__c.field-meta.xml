@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shaft_Failure_to_Transmit_Power__c</fullName>
+    <externalId>false</externalId>
+    <label>Shaft - Failure to Transmit Power</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Crack/Broken Keyway - Overloading</fullName>
+                <default>false</default>
+                <label>Crack/Broken Keyway - Overloading</label>
+            </value>
+            <value>
+                <fullName>Crack/Broken Shaft - Torsional Fatigue</fullName>
+                <default>false</default>
+                <label>Crack/Broken Shaft - Torsional Fatigue</label>
+            </value>
+            <value>
+                <fullName>Cracking Wearing - Packing</fullName>
+                <default>false</default>
+                <label>Cracking Wearing - Packing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR012_Application_Required</fullName>
+    <active>false</active>
+    <description>Application is required when the repaired equipment has been Approved to be Shipped back to the customer or the customer has decided to order new.</description>
+    <errorConditionFormula>AND( 
+ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Ordered New&quot;), 
+ISBLANK(Application__c) 
+)</errorConditionFormula>
+    <errorDisplayField>Application__c</errorDisplayField>
+    <errorMessage>Error WOR012
+Please enter the application for the new opportunity that will be created</errorMessage>
+</ValidationRule>

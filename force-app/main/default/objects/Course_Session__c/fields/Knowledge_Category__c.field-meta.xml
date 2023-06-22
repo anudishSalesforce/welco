@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Knowledge_Category__c</fullName>
+    <externalId>false</externalId>
+    <label>Knowledge Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Industry Knowledge</fullName>
+                <default>false</default>
+                <label>Industry Knowledge</label>
+            </value>
+            <value>
+                <fullName>Industry Standards</fullName>
+                <default>false</default>
+                <label>Industry Standards</label>
+            </value>
+            <value>
+                <fullName>Product/Supplier</fullName>
+                <default>false</default>
+                <label>Product/Supplier</label>
+            </value>
+            <value>
+                <fullName>Professional Development</fullName>
+                <default>false</default>
+                <label>Professional Development</label>
+            </value>
+            <value>
+                <fullName>Role Training/Internal Processes</fullName>
+                <default>false</default>
+                <label>Role Training/Internal Processes</label>
+            </value>
+            <value>
+                <fullName>Software/Systems</fullName>
+                <default>false</default>
+                <label>Software/Systems</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR005_RevisedEstimateDateReasonRequired</fullName>
+    <active>true</active>
+    <description>Reason is required if revised date for estimate is entered</description>
+    <errorConditionFormula>AND(
+NOT(ISBLANK(X4_4_Estimate_Revised_Expected__c)),
+ISBLANK(X4_6_Estimate_Additional_Information__c)
+)</errorConditionFormula>
+    <errorDisplayField>X4_6_Estimate_Additional_Information__c</errorDisplayField>
+    <errorMessage>Error WOR005
+Reason for revised estimate date is required</errorMessage>
+</ValidationRule>

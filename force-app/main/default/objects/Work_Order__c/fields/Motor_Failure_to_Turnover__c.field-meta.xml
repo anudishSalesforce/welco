@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motor_Failure_to_Turnover__c</fullName>
+    <externalId>false</externalId>
+    <label>Motor - Failure to Turnover</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Cracks/Wear - Worn Sheaves</fullName>
+                <default>false</default>
+                <label>Cracks/Wear - Worn Sheaves</label>
+            </value>
+            <value>
+                <fullName>Failure to Start - Cable Damages</fullName>
+                <default>false</default>
+                <label>Failure to Start - Cable Damages</label>
+            </value>
+            <value>
+                <fullName>Rotor Damage - Water Intrusion into the Windings</fullName>
+                <default>false</default>
+                <label>Rotor Damage - Water Intrusion into the Windings</label>
+            </value>
+            <value>
+                <fullName>Overheating - Potash Dust</fullName>
+                <default>false</default>
+                <label>Overheating - Potash Dust</label>
+            </value>
+            <value>
+                <fullName>Overheating - Uneven Foundation</fullName>
+                <default>false</default>
+                <label>Overheating - Uneven Foundation</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>WOR004_ExpectedRepairCompletionDateReq</fullName>
+    <active>false</active>
+    <description>Expected_Repair_Completion_Date_Required when quote has been approved</description>
+    <errorConditionFormula>AND
+(NOT(ISBLANK( X52AActualPOApproval__c )),
+ISBLANK( Expected_Completion_Date__c ),
+
+NOT(
+   OR(
+       ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Scrap at Welco&quot;),
+       ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Send Back to Customer&quot;),
+       ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Customer to Recycle Parts&quot;),
+       ISPICKVAL(CompleteandClose__c, &quot;Not Repaired, Ordered New&quot;) 
+     )
+   )
+)</errorConditionFormula>
+    <errorDisplayField>Expected_Completion_Date__c</errorDisplayField>
+    <errorMessage>Error WOR004
+Please enter the expected completion date if the quote has been approved</errorMessage>
+</ValidationRule>

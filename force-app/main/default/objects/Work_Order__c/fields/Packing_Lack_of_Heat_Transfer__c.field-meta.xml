@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Packing_Lack_of_Heat_Transfer__c</fullName>
+    <externalId>false</externalId>
+    <label>Packing - Lack of Heat Transfer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>true</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>Overheating - Lack of Lubrication</fullName>
+                <default>false</default>
+                <label>Overheating - Lack of Lubrication</label>
+            </value>
+            <value>
+                <fullName>Overheating - Packing Improperly Installed</fullName>
+                <default>false</default>
+                <label>Overheating - Packing Improperly Installed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
