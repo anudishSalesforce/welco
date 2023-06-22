@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HasOptedOutOfEmail</fullName>
+    <description>If the contact has requested to no longer receive commercial emails, do not send emails other than quote/order update emails.</description>
+    <inlineHelpText>Check this box if the contact has requested to opt out of receiving commercial emails.</inlineHelpText>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+</CustomField>

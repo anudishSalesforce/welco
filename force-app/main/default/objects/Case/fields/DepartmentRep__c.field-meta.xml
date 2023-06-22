@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DepartmentRep__c</fullName>
+    <description>used to select others working on this case team similar to selecting an Inside Sales rep</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Ties the corresponding department member to the case for information accuracy and accountability.</inlineHelpText>
+    <label>Department Rep</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Engineering - Juan Torres</fullName>
+                <default>false</default>
+                <label>Engineering - Juan Torres</label>
+            </value>
+            <value>
+                <fullName>Engineering - Kate Romanovskaya</fullName>
+                <default>false</default>
+                <label>Engineering - Kate Romanovskaya</label>
+            </value>
+            <value>
+                <fullName>Engineering - Marcel Rodriguez</fullName>
+                <default>false</default>
+                <label>Engineering - Marcel Rodriguez</label>
+            </value>
+            <value>
+                <fullName>Engineering - Marinela Soler</fullName>
+                <default>false</default>
+                <label>Engineering - Marinela Soler</label>
+            </value>
+            <value>
+                <fullName>Shipping - Jeremy Holt</fullName>
+                <default>false</default>
+                <label>Shipping - Jeremy Holt</label>
+            </value>
+            <value>
+                <fullName>Shipping - Rick Hubarewich</fullName>
+                <default>false</default>
+                <label>Shipping - Rick Hubarewich</label>
+            </value>
+            <value>
+                <fullName>Shop - Charlie Matheson</fullName>
+                <default>false</default>
+                <label>Shop - Charlie Matheson</label>
+            </value>
+            <value>
+                <fullName>Shop - Ryan Bouffard</fullName>
+                <default>false</default>
+                <label>Shop - Ryan Bouffard</label>
+            </value>
+            <value>
+                <fullName>Engineering - Carolina Arno</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Engineering - Carolina Arno</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

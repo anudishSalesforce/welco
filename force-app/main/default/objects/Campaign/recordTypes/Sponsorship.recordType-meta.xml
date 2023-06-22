@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sponsorship</fullName>
+    <active>true</active>
+    <description>Welco&apos;s Sponsorship</description>
+    <label>Sponsorship</label>
+    <picklistValues>
+        <picklist>All_Attendees_Registered__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Approved_by_Management__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry__c</picklist>
+        <values>
+            <fullName>*Mystery Meat*</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aggregate - Frac Sand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aggregate - Wash plant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Animal Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asphalt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bakery Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beverages %26 Bottling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannabis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals %26 Plastics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coffee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dairy Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPC - Industrial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPC - Mining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPC - Oil %26 Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental %26 Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fire Protection</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fruits %26 Veggies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grain %26 Pulse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grain %26 Pulse - Seeds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Grain %26 Pulse - Terminals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HVAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landfills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meat Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metalworking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining - Coal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining - Hard Rock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining - Industrial Minerals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining - Oil Sands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mining - Potash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Municipal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Gas - Drilling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil %26 Gas - Terminals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oil Sands - Thermal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Packaging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaceuticals %26 Nutraceuticals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potatoes %26 Chips</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Plants - Coal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Plants - Gas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power Plants - Hydro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pulp %26 Paper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recycling - Industrial %26 Residential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recycling - Metals %26 Rubbers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refineries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sawmills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seafood Products</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spices %26 Condiments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sugar %26 Confectionary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehousing %26 Logistics - Cold Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehousing %26 Logistics - General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehousing %26 Logistics - Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Waste Water</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Water</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Proceeding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier_Initiative__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banner Ad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Celebration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Community Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch %26 Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seminar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Reason__c</fullName>
+    <description>Tracks the reason the opportunity closed</description>
+    <externalId>false</externalId>
+    <label>Close Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Lost - Competitor</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - Competitor Product/Service</label>
+            </value>
+            <value>
+                <fullName>Lost - No Response from CustomerExpired</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - No Response from Customer/Expired</label>
+            </value>
+            <value>
+                <fullName>Lost - No Response from Supplier</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - No Response from Supplier</label>
+            </value>
+            <value>
+                <fullName>Lost - PriceBudget Constraints</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - Price/Budget Constraints</label>
+            </value>
+            <value>
+                <fullName>Lost - Project AbandonmentClosed</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - Project Abandonment/Closed</label>
+            </value>
+            <value>
+                <fullName>Out of Scope</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - Project Out of Scope</label>
+            </value>
+            <value>
+                <fullName>Lost - ShippingLead Time</fullName>
+                <color>#FF0000</color>
+                <default>false</default>
+                <label>Lost - Shipping/Lead Time</label>
+            </value>
+            <value>
+                <fullName>Won - Competitive Pricing</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>Won - Competitive Pricing</label>
+            </value>
+            <value>
+                <fullName>Won - Shipping/Lead Time</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>Won - Shipping/Lead Time</label>
+            </value>
+            <value>
+                <fullName>Won - Best Solution</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>Won - Best Solution</label>
+            </value>
+            <value>
+                <fullName>Won - Loyalty</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>Won - Loyalty</label>
+            </value>
+            <value>
+                <fullName>Won - Repair Replacement</fullName>
+                <color>#00CCCC</color>
+                <default>false</default>
+                <label>Won - Repair Replacement</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lost-Lack of Followup</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lost-Lack of Followup</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost - Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost - No Response from CustomerExpired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost - No Response from Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost - PriceBudget Constraints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost - Project AbandonmentClosed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Out of Scope</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <valueName>Lost - ShippingLead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Lost</controllingFieldValue>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Won - Competitive Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Won - Shipping/Lead Time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Won - Best Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Won - Loyalty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed Won</controllingFieldValue>
+            <valueName>Won - Repair Replacement</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

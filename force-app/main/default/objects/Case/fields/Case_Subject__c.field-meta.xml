@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Subject__c</fullName>
+    <description>What is the primary subject of your case?</description>
+    <externalId>false</externalId>
+    <label>Case Subject</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Client Complaint</fullName>
+                <default>false</default>
+                <label>Client Complaint</label>
+            </value>
+            <value>
+                <fullName>Code Error</fullName>
+                <default>false</default>
+                <label>Code Error</label>
+            </value>
+            <value>
+                <fullName>Diagram Error</fullName>
+                <default>false</default>
+                <label>Diagram Error</label>
+            </value>
+            <value>
+                <fullName>Inputting Error</fullName>
+                <default>false</default>
+                <label>Inputting Error</label>
+            </value>
+            <value>
+                <fullName>Invoice Error</fullName>
+                <default>false</default>
+                <label>Invoice Error</label>
+            </value>
+            <value>
+                <fullName>Logistics Error</fullName>
+                <default>false</default>
+                <label>Logistics Error</label>
+            </value>
+            <value>
+                <fullName>Long Vendor Response</fullName>
+                <default>false</default>
+                <label>Long Vendor Response</label>
+            </value>
+            <value>
+                <fullName>Manufacturer Error</fullName>
+                <default>false</default>
+                <label>Manufacturer Error</label>
+            </value>
+            <value>
+                <fullName>Missing Labels</fullName>
+                <default>false</default>
+                <label>Missing Labels</label>
+            </value>
+            <value>
+                <fullName>Ordering Error</fullName>
+                <default>false</default>
+                <label>Ordering Error</label>
+            </value>
+            <value>
+                <fullName>Part Damage</fullName>
+                <default>false</default>
+                <label>Part Damage</label>
+            </value>
+            <value>
+                <fullName>Pricing Error</fullName>
+                <default>false</default>
+                <label>Pricing Error</label>
+            </value>
+            <value>
+                <fullName>Shipping Error</fullName>
+                <default>false</default>
+                <label>Shipping Error</label>
+            </value>
+            <value>
+                <fullName>Wrong Selection/Specifications</fullName>
+                <default>false</default>
+                <label>Wrong Selection/Specifications</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

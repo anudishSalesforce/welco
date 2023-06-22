@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suppliers_Vendors__c</fullName>
+    <description>Count of Suppliers/Vendors met at the event</description>
+    <externalId>false</externalId>
+    <label>Suppliers/Vendors</label>
+    <summaryFilterItems>
+        <field>CampaignMember.MemberStatusType__c</field>
+        <operation>equals</operation>
+        <value>Supplier/Vendor</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

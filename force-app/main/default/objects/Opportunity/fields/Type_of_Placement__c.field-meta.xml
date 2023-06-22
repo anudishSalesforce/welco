@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Placement__c</fullName>
+    <businessOwnerUser>accounting1@welco.ca.traintest</businessOwnerUser>
+    <businessStatus>Active</businessStatus>
+    <description>Based off of list from Krebs</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Existing (Spare/Stock/Rotatable) and Repair Replacement opportunities do not require kickoff meetings.</inlineHelpText>
+    <label>Type of Placement</label>
+    <required>true</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>New Application</fullName>
+                <default>false</default>
+                <label>New Application</label>
+            </value>
+            <value>
+                <fullName>Competitor Replacement</fullName>
+                <default>false</default>
+                <label>Competitor Replacement</label>
+            </value>
+            <value>
+                <fullName>Upgrade Existing</fullName>
+                <default>false</default>
+                <label>Upgrade Existing</label>
+            </value>
+            <value>
+                <fullName>Existing (Spare/Stock/Rotatable)</fullName>
+                <default>false</default>
+                <label>Existing (Spare/Stock/Rotatable)</label>
+            </value>
+            <value>
+                <fullName>Repair Replacement</fullName>
+                <default>false</default>
+                <label>Repair Replacement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

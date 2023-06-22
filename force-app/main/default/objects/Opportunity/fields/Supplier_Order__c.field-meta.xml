@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Order__c</fullName>
+    <description>Hold Supplier Order Number for reference purposes 
+E.g. Eriez Order Numbers</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Supplier Order Number for reference e.g. Eriez Order Number</inlineHelpText>
+    <label>Supplier Order #</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

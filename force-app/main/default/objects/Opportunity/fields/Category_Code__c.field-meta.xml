@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Category_Code__c</fullName>
+    <description>Tracks Opportunity Codes based off of Adagio System codes</description>
+    <externalId>false</externalId>
+    <label>Category Code</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Supplier__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Category_Code</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Mody Pumps</controllingFieldValue>
+            <controllingFieldValue>Norris Screens</controllingFieldValue>
+            <controllingFieldValue>FLSmidth SLC</controllingFieldValue>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <controllingFieldValue>BDI</controllingFieldValue>
+            <valueName>AAA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mody Pumps</controllingFieldValue>
+            <valueName>MOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mody Pumps</controllingFieldValue>
+            <valueName>MOU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A.R. Thomson</controllingFieldValue>
+            <controllingFieldValue>Norwesco</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <controllingFieldValue>Cleveland Vibrator</controllingFieldValue>
+            <valueName>AAO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norris Screens</controllingFieldValue>
+            <valueName>NOD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norris Screens</controllingFieldValue>
+            <valueName>NOP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Norris Screens</controllingFieldValue>
+            <valueName>NOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welco Service</controllingFieldValue>
+            <valueName>WEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welco Service</controllingFieldValue>
+            <valueName>WEU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Welco Service</controllingFieldValue>
+            <valueName>WJC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth SLC</controllingFieldValue>
+            <valueName>FBP - Ferrocer Blocks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth SLC</controllingFieldValue>
+            <valueName>LUD – Ludowici Direct Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth SLC</controllingFieldValue>
+            <valueName>LUP - Ludowici Panels &amp; Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth SLC</controllingFieldValue>
+            <valueName>LUS - Ludowici Screens, Sieves &amp; Static Box</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth SLC</controllingFieldValue>
+            <valueName>WMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Jadco</controllingFieldValue>
+            <valueName>JAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simflo</controllingFieldValue>
+            <valueName>SIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Simflo</controllingFieldValue>
+            <valueName>SIU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Albany Pump</controllingFieldValue>
+            <valueName>ACP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Albany Pump</controllingFieldValue>
+            <valueName>ACU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Albany Pump</controllingFieldValue>
+            <valueName>APP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Albany Pump</controllingFieldValue>
+            <valueName>APU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cunningham</controllingFieldValue>
+            <valueName>CUP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cunningham</controllingFieldValue>
+            <valueName>CUU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CSM Steel Fab</controllingFieldValue>
+            <valueName>CSP - Fabricated Parts for Welco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Allgaier</controllingFieldValue>
+            <valueName>ALD – Allgaier Direct Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>AAP - One-time Vendor - Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>AAU - One-time Vendor - Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nu-Clean</controllingFieldValue>
+            <valueName>NUD – Nu-Clean Direct Sales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <valueName>CAD - Canamix Direct - Agitators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <valueName>CAP - Canamix - Agitator Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <valueName>CAU - Canamix Agitators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <valueName>CPD - Canamix Direct - Peristaltic Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <valueName>CPP - Canamix - Peristaltic Pump Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sepro</controllingFieldValue>
+            <valueName>CPU - Canamix Peristaltic Pumps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tabor Machine</controllingFieldValue>
+            <valueName>CLP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tabor Machine</controllingFieldValue>
+            <valueName>CLU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tabor Machine</controllingFieldValue>
+            <valueName>TAF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tabor Machine</controllingFieldValue>
+            <valueName>TAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tabor Machine</controllingFieldValue>
+            <valueName>TAU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Flexicon</controllingFieldValue>
+            <valueName>FLD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Saint Gobain</controllingFieldValue>
+            <valueName>SAI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth PT</controllingFieldValue>
+            <valueName>FPD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polaris Pumps</controllingFieldValue>
+            <valueName>POP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polaris Pumps</controllingFieldValue>
+            <valueName>POU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hy-Tran</controllingFieldValue>
+            <valueName>HYU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HammerTek</controllingFieldValue>
+            <valueName>HMD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>EMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>EMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>GRP - gravelMAX Pump Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>GRU - gravelMAX Pump Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>HMP - hMAX Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>HMU - hMAX Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRB - Krebs Manifold Accessories FOB Factory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRT - Krebs Third Party Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>KRZ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMB - millMAX Accessories FOB Factory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMT - millMAX Third Party Vendor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>MMY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>RMP - slurryMAX XD Pump Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>RMU - slurryMAX XD Pump Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>SMP - slurryMAX SC Pump Parts (NEW 2018)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>SMU - slurryMAX SC Pump Units (NEW 2018)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>TGP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>TGU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>TTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>TTU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>TWP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>TWU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>UMO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>UMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>UMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>VMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>FLSmidth Krebs</controllingFieldValue>
+            <valueName>VMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BJM Pumps</controllingFieldValue>
+            <valueName>BJP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BJM Pumps</controllingFieldValue>
+            <valueName>BJU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BDI</controllingFieldValue>
+            <valueName>BDB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BDI</controllingFieldValue>
+            <valueName>BDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BDI</controllingFieldValue>
+            <controllingFieldValue>Motion Canada</controllingFieldValue>
+            <valueName>WWT - Welco Third Party</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMI</controllingFieldValue>
+            <valueName>CMP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CMI</controllingFieldValue>
+            <valueName>CMU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CTI</controllingFieldValue>
+            <valueName>CEP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CTI</controllingFieldValue>
+            <valueName>CEU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aesseal Canada Inc.</controllingFieldValue>
+            <valueName>AEP Aesseal - Parts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eriez</controllingFieldValue>
+            <valueName>ELD - Eriez Direct - Flotation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eriez</controllingFieldValue>
+            <valueName>ERD-AGR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Eriez</controllingFieldValue>
+            <valueName>ERD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Elgin Separation Solutions</controllingFieldValue>
+            <valueName>EPU - Elgin Separation Units</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ruhrpumpen</controllingFieldValue>
+            <valueName>RUP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ruhrpumpen</controllingFieldValue>
+            <valueName>RUU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miller-Leaman</controllingFieldValue>
+            <valueName>MIP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miller-Leaman</controllingFieldValue>
+            <valueName>MIU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TEMA</controllingFieldValue>
+            <valueName>TMP</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

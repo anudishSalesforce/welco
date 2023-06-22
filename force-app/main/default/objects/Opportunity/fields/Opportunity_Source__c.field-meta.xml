@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Source__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunity Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Customer Referral</fullName>
+                <default>false</default>
+                <label>Customer Referral</label>
+            </value>
+            <value>
+                <fullName>Digital Advertising</fullName>
+                <default>false</default>
+                <label>Digital Advertising</label>
+            </value>
+            <value>
+                <fullName>Eriez Orange Room</fullName>
+                <default>false</default>
+                <label>Eriez Orange Room</label>
+            </value>
+            <value>
+                <fullName>Existing Business</fullName>
+                <default>false</default>
+                <label>Existing Business</label>
+            </value>
+            <value>
+                <fullName>Magazine/Publication</fullName>
+                <default>false</default>
+                <label>Magazine/Publication</label>
+            </value>
+            <value>
+                <fullName>Phone/Email/Site Visit (Account Manager)</fullName>
+                <default>false</default>
+                <label>Phone/Email/Site Visit (Account Manager)</label>
+            </value>
+            <value>
+                <fullName>Phone/Email (Inside Sales)</fullName>
+                <default>false</default>
+                <label>Phone/Email (Inside Sales)</label>
+            </value>
+            <value>
+                <fullName>President/VP Referral</fullName>
+                <default>false</default>
+                <label>President/VP Referral</label>
+            </value>
+            <value>
+                <fullName>Supplier Referral</fullName>
+                <default>false</default>
+                <label>Supplier Referral</label>
+            </value>
+            <value>
+                <fullName>Trade Show/Event</fullName>
+                <default>false</default>
+                <label>Trade Show/Event</label>
+            </value>
+            <value>
+                <fullName>Welco Campaigns</fullName>
+                <default>false</default>
+                <label>Welco Campaigns</label>
+            </value>
+            <value>
+                <fullName>Welco Website</fullName>
+                <default>false</default>
+                <label>Welco Website</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

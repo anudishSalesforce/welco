@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP004_KickoffMeetingExpectedDateReq</fullName>
+    <active>false</active>
+    <description>Kickoff meeting required if: 
+-regular unit sale
+-opportunity is open
+-opportunity was created after or on November 21, 2018</description>
+    <errorConditionFormula>AND(
+ OpportunityRequiresKickoff__c = TRUE,
+ ISBLANK(Expected_Kickoff_Meeting_Date__c)
+)</errorConditionFormula>
+    <errorDisplayField>Expected_Kickoff_Meeting_Date__c</errorDisplayField>
+    <errorMessage>Error OPP004
+Please propose a Kickoff Meeting Date.</errorMessage>
+</ValidationRule>

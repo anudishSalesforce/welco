@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivityType__c</fullName>
+    <externalId>false</externalId>
+    <label>Task Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Call: Power</fullName>
+                <default>false</default>
+                <label>Call: Power</label>
+            </value>
+            <value>
+                <fullName>Call Connect: Account Management</fullName>
+                <default>false</default>
+                <label>Call Connect: Account Management</label>
+            </value>
+            <value>
+                <fullName>Call Connect: Current Opportunity</fullName>
+                <default>false</default>
+                <label>Call Connect: Current Opportunity</label>
+            </value>
+            <value>
+                <fullName>Call Connect: Prospecting (New)</fullName>
+                <default>false</default>
+                <label>Call Connect: Prospecting (New)</label>
+            </value>
+            <value>
+                <fullName>Meeting: Power</fullName>
+                <default>false</default>
+                <label>Meeting: Power</label>
+            </value>
+            <value>
+                <fullName>Meeting: Account Management</fullName>
+                <default>false</default>
+                <label>Meeting: Account Management</label>
+            </value>
+            <value>
+                <fullName>Meeting: Current Opportunity</fullName>
+                <default>false</default>
+                <label>Meeting: Current Opportunity</label>
+            </value>
+            <value>
+                <fullName>Meeting: Prospecting</fullName>
+                <default>false</default>
+                <label>Meeting: Prospecting</label>
+            </value>
+            <value>
+                <fullName>Meeting: Account Planning</fullName>
+                <default>false</default>
+                <label>Meeting: Account Planning</label>
+            </value>
+            <value>
+                <fullName>Meeting: Internal</fullName>
+                <default>false</default>
+                <label>Meeting: Internal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

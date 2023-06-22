@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Campaign_Approved_Alert</fullName>
+        <description>Campaign - Approved Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mikew@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sarahj@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_and_Marketing/CampaignApproved</template>
+    </alerts>
+    <alerts>
+        <fullName>Campaign_Rejected_Alert</fullName>
+        <description>Campaign - Rejected Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>sarahj@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_and_Marketing/CampaignRejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>StatusUpdate</fullName>
+        <description>Change Status to Identified (first stage) if it&apos;s been approved once already</description>
+        <field>Status</field>
+        <literalValue>Identified</literalValue>
+        <name>Update Status to Identified</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_By_to_None</fullName>
+        <description>Update to none</description>
+        <field>Approved_by_Management__c</field>
+        <name>Update Approved By</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_by_Management_to_No</fullName>
+        <description>Update Approved by Management field to no</description>
+        <field>Approved_by_Management__c</field>
+        <literalValue>No</literalValue>
+        <name>Update Approved by Management to No</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_by_Management_to_Pending</fullName>
+        <description>Update Approved by Management field to Pending</description>
+        <field>Approved_by_Management__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Update Approved by Management to Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_by_Management_to_Yes</fullName>
+        <description>Update Approved by Management to Yes</description>
+        <field>Approved_by_Management__c</field>
+        <literalValue>Yes</literalValue>
+        <name>Update Approved by Management to Yes</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_to_Approved</fullName>
+        <description>Update Campaign Status to Approved</description>
+        <field>Status</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Status to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_to_IdentifiedR</fullName>
+        <description>Change Status to Identified if status is currently in any other stage</description>
+        <field>Status</field>
+        <literalValue>Identified</literalValue>
+        <name>Update Status to Identified if Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

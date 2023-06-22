@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP005_KickoffExpectedDateReqonNew</fullName>
+    <active>false</active>
+    <description>Kickoff meeting required if: 
+-regular unit sale
+-opportunity is open
+-opportunity was created after or on November 21, 2018</description>
+    <errorConditionFormula>AND(
+ ISNEW(),
+ ISPICKVAL(Sale_Type__c, &quot;Regular&quot;),
+ ISPICKVAL(Opportunity_Type__c, &quot;Units&quot;),
+ OR(
+    ISPICKVAL(Type_of_Placement__c, &quot;New Application&quot;),
+    ISPICKVAL(Type_of_Placement__c, &quot;Competitor Replacement&quot;),
+    ISPICKVAL(Type_of_Placement__c, &quot;Upgrade Existing&quot;)
+    ),
+ ISBLANK(Expected_Kickoff_Meeting_Date__c)
+)</errorConditionFormula>
+    <errorDisplayField>Expected_Kickoff_Meeting_Date__c</errorDisplayField>
+    <errorMessage>Error OPP005
+Please propose a Kickoff Meeting Date.</errorMessage>
+</ValidationRule>

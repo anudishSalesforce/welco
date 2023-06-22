@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Account Rep Assignment</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>francov@welco.ca</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.AccountOwnerAlias__c</field>
+                <operation>equals</operation>
+                <value>FV</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CasesInsideSales</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.AccountOwnerAlias__c</field>
+                <operation>equals</operation>
+                <value>House</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+    <assignmentRule>
+        <fullName>Department Assignment</fullName>
+        <active>false</active>
+        <ruleEntry>
+            <assignedTo>Cases_Engineering</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Equipment Failure,Performance,Quality Control</value>
+            </criteriaItems>
+            <team>Engineering</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Cases_Shipping</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Logistics,RMA</value>
+            </criteriaItems>
+            <team>Shipping</team>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>CasesInsideSales</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Customer Service</value>
+            </criteriaItems>
+            <team>Inside Sales</team>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

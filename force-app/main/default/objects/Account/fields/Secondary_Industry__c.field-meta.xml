@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Secondary_Industry__c</fullName>
+    <externalId>false</externalId>
+    <label>Secondary Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Primary_Industry__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aggregate</fullName>
+                <default>false</default>
+                <label>Aggregate</label>
+            </value>
+            <value>
+                <fullName>Beverage</fullName>
+                <default>false</default>
+                <label>Beverage</label>
+            </value>
+            <value>
+                <fullName>Cannabis</fullName>
+                <default>false</default>
+                <label>Cannabis</label>
+            </value>
+            <value>
+                <fullName>Chemicals</fullName>
+                <default>false</default>
+                <label>Chemicals</label>
+            </value>
+            <value>
+                <fullName>Coal</fullName>
+                <default>false</default>
+                <label>Coal</label>
+            </value>
+            <value>
+                <fullName>Copper</fullName>
+                <default>false</default>
+                <label>Copper</label>
+            </value>
+            <value>
+                <fullName>Diamonds</fullName>
+                <default>false</default>
+                <label>Diamonds</label>
+            </value>
+            <value>
+                <fullName>Disposal</fullName>
+                <default>false</default>
+                <label>Disposal</label>
+            </value>
+            <value>
+                <fullName>Downstream O&amp;G</fullName>
+                <default>false</default>
+                <label>Downstream O&amp;G</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energy</label>
+            </value>
+            <value>
+                <fullName>Food</fullName>
+                <default>false</default>
+                <label>Food</label>
+            </value>
+            <value>
+                <fullName>Glass</fullName>
+                <default>false</default>
+                <label>Glass</label>
+            </value>
+            <value>
+                <fullName>Gold</fullName>
+                <default>false</default>
+                <label>Gold</label>
+            </value>
+            <value>
+                <fullName>Grain &amp; Pulse</fullName>
+                <default>false</default>
+                <label>Grain &amp; Pulse</label>
+            </value>
+            <value>
+                <fullName>Graphite</fullName>
+                <default>false</default>
+                <label>Graphite</label>
+            </value>
+            <value>
+                <fullName>Harvesting</fullName>
+                <default>false</default>
+                <label>Harvesting</label>
+            </value>
+            <value>
+                <fullName>Industrial</fullName>
+                <default>false</default>
+                <label>Industrial</label>
+            </value>
+            <value>
+                <fullName>Lithium</fullName>
+                <default>false</default>
+                <label>Lithium</label>
+            </value>
+            <value>
+                <fullName>Metal/Steel</fullName>
+                <default>false</default>
+                <label>Metal/Steel</label>
+            </value>
+            <value>
+                <fullName>Metals &amp; Minerals</fullName>
+                <default>false</default>
+                <label>Metals &amp; Minerals</label>
+            </value>
+            <value>
+                <fullName>Metalworking</fullName>
+                <default>false</default>
+                <label>Metalworking</label>
+            </value>
+            <value>
+                <fullName>Midstream O&amp;G</fullName>
+                <default>false</default>
+                <label>Midstream O&amp;G</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Moly</fullName>
+                <default>false</default>
+                <label>Moly</label>
+            </value>
+            <value>
+                <fullName>Nickel</fullName>
+                <default>false</default>
+                <label>Nickel</label>
+            </value>
+            <value>
+                <fullName>Oilsands - In-Situ</fullName>
+                <default>false</default>
+                <label>Oilsands - In-Situ</label>
+            </value>
+            <value>
+                <fullName>Oilsands - Mining</fullName>
+                <default>false</default>
+                <label>Oilsands - Mining</label>
+            </value>
+            <value>
+                <fullName>Packagers</fullName>
+                <default>false</default>
+                <label>Packagers</label>
+            </value>
+            <value>
+                <fullName>Petro-Chemical</fullName>
+                <default>false</default>
+                <label>Petro-Chemical</label>
+            </value>
+            <value>
+                <fullName>Plant</fullName>
+                <default>false</default>
+                <label>Plant</label>
+            </value>
+            <value>
+                <fullName>Plastic</fullName>
+                <default>false</default>
+                <label>Plastic</label>
+            </value>
+            <value>
+                <fullName>Plastic - Recycling</fullName>
+                <default>false</default>
+                <label>Plastic - Recycling</label>
+            </value>
+            <value>
+                <fullName>Potable</fullName>
+                <default>false</default>
+                <label>Potable</label>
+            </value>
+            <value>
+                <fullName>Potash</fullName>
+                <default>false</default>
+                <label>Potash</label>
+            </value>
+            <value>
+                <fullName>Power Generation</fullName>
+                <default>false</default>
+                <label>Power Generation</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Production - Agriculture</fullName>
+                <default>false</default>
+                <label>Production - Agriculture</label>
+            </value>
+            <value>
+                <fullName>Rare Earth</fullName>
+                <default>false</default>
+                <label>Rare Earth</label>
+            </value>
+            <value>
+                <fullName>Reseller - Agriculture</fullName>
+                <default>false</default>
+                <label>Reseller - Agriculture</label>
+            </value>
+            <value>
+                <fullName>Reseller - Fabrication/Manufacturing</fullName>
+                <default>false</default>
+                <label>Reseller - Fabrication/Manufacturing</label>
+            </value>
+            <value>
+                <fullName>Reseller - Forestry</fullName>
+                <default>false</default>
+                <label>Reseller - Forestry</label>
+            </value>
+            <value>
+                <fullName>Reseller - Mining</fullName>
+                <default>false</default>
+                <label>Reseller - Mining</label>
+            </value>
+            <value>
+                <fullName>Reseller - Recycling</fullName>
+                <default>false</default>
+                <label>Reseller - Recycling</label>
+            </value>
+            <value>
+                <fullName>Salt</fullName>
+                <default>false</default>
+                <label>Salt</label>
+            </value>
+            <value>
+                <fullName>Sanitary</fullName>
+                <default>false</default>
+                <label>Sanitary</label>
+            </value>
+            <value>
+                <fullName>Sawmills</fullName>
+                <default>false</default>
+                <label>Sawmills</label>
+            </value>
+            <value>
+                <fullName>Steel</fullName>
+                <default>false</default>
+                <label>Steel</label>
+            </value>
+            <value>
+                <fullName>Terminals</fullName>
+                <default>false</default>
+                <label>Terminals</label>
+            </value>
+            <value>
+                <fullName>Upstream O&amp;G</fullName>
+                <default>false</default>
+                <label>Upstream O&amp;G</label>
+            </value>
+            <value>
+                <fullName>Uranium</fullName>
+                <default>false</default>
+                <label>Uranium</label>
+            </value>
+            <value>
+                <fullName>Wastewater</fullName>
+                <default>false</default>
+                <label>Wastewater</label>
+            </value>
+            <value>
+                <fullName>Zinc</fullName>
+                <default>false</default>
+                <label>Zinc</label>
+            </value>
+            <value>
+                <fullName>Pharmaceuticals and Nutraceuticals - Production</fullName>
+                <default>false</default>
+                <label>Pharmaceuticals and Nutraceuticals - Production</label>
+            </value>
+            <value>
+                <fullName>Pharmaceuticals and Nutraceuticals - Sanitary</fullName>
+                <default>false</default>
+                <label>Pharmaceuticals and Nutraceuticals - Sanitary</label>
+            </value>
+            <value>
+                <fullName>Asphalt</fullName>
+                <default>false</default>
+                <label>Asphalt</label>
+            </value>
+            <value>
+                <fullName>Concrete</fullName>
+                <default>false</default>
+                <label>Concrete</label>
+            </value>
+            <value>
+                <fullName>Pit</fullName>
+                <default>false</default>
+                <label>Pit</label>
+            </value>
+            <value>
+                <fullName>Pellets</fullName>
+                <default>false</default>
+                <label>Pellets</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Cannabis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Grain &amp; Pulse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Harvesting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Production - Agriculture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agriculture</controllingFieldValue>
+            <valueName>Reseller - Agriculture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Contractors</controllingFieldValue>
+            <valueName>Energy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Contractors</controllingFieldValue>
+            <valueName>Industrial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Contractors</controllingFieldValue>
+            <valueName>Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Plant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Terminals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Asphalt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Concrete</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Aggregate</controllingFieldValue>
+            <valueName>Pit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Downstream O&amp;G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Midstream O&amp;G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oilsands - In-Situ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Oilsands - Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Packagers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Petro-Chemical</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Power Generation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energy</controllingFieldValue>
+            <valueName>Upstream O&amp;G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pulp &amp; Paper</controllingFieldValue>
+            <valueName>Reseller - Forestry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pulp &amp; Paper</controllingFieldValue>
+            <valueName>Sawmills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pulp &amp; Paper</controllingFieldValue>
+            <valueName>Pellets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Metalworking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Plastic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Reseller - Fabrication/Manufacturing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing</controllingFieldValue>
+            <valueName>Steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Aggregate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Coal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Copper</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Diamonds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Gold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Graphite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Lithium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Metals &amp; Minerals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Moly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Nickel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Potash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Rare Earth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Reseller - Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Salt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Uranium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mining</controllingFieldValue>
+            <valueName>Zinc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycling</controllingFieldValue>
+            <valueName>Disposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycling</controllingFieldValue>
+            <valueName>Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycling</controllingFieldValue>
+            <valueName>Metal/Steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycling</controllingFieldValue>
+            <valueName>Plastic - Recycling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recycling</controllingFieldValue>
+            <valueName>Reseller - Recycling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water</controllingFieldValue>
+            <valueName>Potable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Water</controllingFieldValue>
+            <valueName>Wastewater</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

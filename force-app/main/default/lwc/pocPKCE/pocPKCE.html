@@ -1,0 +1,43 @@
+<template>
+    <div class="slds-hide">
+        <lightning-button label="Login" variant="brand" class="" onclick={initiateVFAuthCall}></lightning-button>
+        <template if:true={accessToken}>
+            <p style="word-break: break-word" class="">Token: {accessToken}</p>
+        </template>
+        <template if:true={workstationId}>
+            <p style="word-break: break-word" class="">Workstation Id: {workstationId}</p>
+        </template>
+        <template if:true={loadFrame}>
+            <iframe height="0" width="0" class="slds-hide" src="/apex/POCPKCE" sandbox="allow-modals allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox"></iframe>
+        </template>
+    </div>
+    <div>
+        <lightning-card class="lightning-card-background spLightningContainer" >
+            <div class="lightningCardContent">
+                <img src={sharepointLogoIcon} alt="sharepointLogo" class="sharepointTitleLogo">
+                <div class="" if:false={isAuthenticated}>
+                    <!-- <img src={sharepointLogoIcon} alt="sharepointLogo" class="sharepointTitleLogo"> -->
+    
+                    <lightning-button onclick={initiateVFAuthCall} slot="title" label="Login" variant="Brand">
+                    </lightning-button>
+                </div>
+                <div if:true={isAuthenticated}>
+                    <div class="spinnerContainer" if:false={isChecked}>
+                        <lightning-spinner class="spSpinner" alternative-text="Loading" size="medium"></lightning-spinner>
+                    </div>
+                    <div if:true={isChecked} class="lightningCardContent" >
+                        
+                        <a href={folderLink} target="_blank" slot="title" class="link lightningCardContent" if:true={folderExists}>
+                            {chosenFolder}
+                            <lightning-icon class="new-window-icon" size="x-small" icon-name="utility:new_window" alternative-text="New window" title="New window"></lightning-icon>
+                        </a>
+                        <div  if:false={folderExists}>
+                            <lightning-button onclick={createFolder} slot="title" label="Create new folder" variant="neutral" icon-name="utility:open_folder">
+                            </lightning-button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </lightning-card>
+    </div>
+</template>

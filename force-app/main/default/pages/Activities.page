@@ -1,0 +1,3 @@
+<apex:page showHeader="TRUE" sidebar="TRUE">
+    <apex:enhancedList customizable="true" type="Activity" height="525"/>
+</apex:page>

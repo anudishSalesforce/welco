@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Material_of_Gate__c</fullName>
+    <description>lining of the gate</description>
+    <externalId>false</externalId>
+    <label>Material of Gate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>17-4ph</fullName>
+                <default>false</default>
+                <label>17-4ph</label>
+            </value>
+            <value>
+                <fullName>2205 Super Duplex</fullName>
+                <default>false</default>
+                <label>2205 Super Duplex</label>
+            </value>
+            <value>
+                <fullName>316L</fullName>
+                <default>false</default>
+                <label>316L</label>
+            </value>
+            <value>
+                <fullName>C276 Hastelloy</fullName>
+                <default>false</default>
+                <label>C276 Hastelloy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAS002_Resolution_Outcome_Required</fullName>
+    <active>true</active>
+    <description>Resolution Outcome cannot be blank once the case has been Resolved</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(Status, &quot;Resolved&quot;),
+ISBLANK( Resolution_Outcome__c )
+)</errorConditionFormula>
+    <errorDisplayField>Resolution_Outcome__c</errorDisplayField>
+    <errorMessage>Error CAS002
+Please enter a resolution outcome.</errorMessage>
+</ValidationRule>

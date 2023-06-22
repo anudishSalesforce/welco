@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP001_Close_Date_Restriction</fullName>
+    <active>false</active>
+    <description>Data Integrity</description>
+    <errorConditionFormula>AND( 
+(ISPICKVAL( StageName , &quot;Negotiation/Review&quot; )),
+( (TODAY() + 365) &lt; (CloseDate) ) )</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Error OPP001
+If this opportunity is expected to close in over 12 months, please mark it as long term project.</errorMessage>
+</ValidationRule>

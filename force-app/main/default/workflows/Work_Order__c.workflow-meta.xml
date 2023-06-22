@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Drawings_Received</fullName>
+        <description>Update Status under Drawings once date is added.</description>
+        <field>X1_Drawings__c</field>
+        <literalValue>Drawings Received</literalValue>
+        <name>Update Drawings Received</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Drawings_Requested</fullName>
+        <description>Update Status under Drawings once date is added.</description>
+        <field>X1_Drawings__c</field>
+        <literalValue>Drawings Requested</literalValue>
+        <name>Update Drawings Requested</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Estimate_In_Progress</fullName>
+        <description>Update Status under Estimate once date is added.</description>
+        <field>X4_Estimate__c</field>
+        <literalValue>Estimate in Progress</literalValue>
+        <name>Update Estimate In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Estimate_Sent_to_Customer</fullName>
+        <description>Update Status under Estimate once date is added.</description>
+        <field>X4_Estimate__c</field>
+        <literalValue>Estimate Sent to Customer</literalValue>
+        <name>Update Estimate Sent to Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Inspection_Completed</fullName>
+        <description>Update Status under Inspection once date is added.</description>
+        <field>X2_Inspection__c</field>
+        <literalValue>Inspection Completed</literalValue>
+        <name>Update Inspection Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Inspection_In_Progress</fullName>
+        <description>Update Status under Inspection once date is added.</description>
+        <field>X2_Inspection__c</field>
+        <literalValue>Inspection in Progress</literalValue>
+        <name>Update Inspection In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Parts_Ordered</fullName>
+        <description>Update Status under Parts once date is added.</description>
+        <field>X6_Order_Parts__c</field>
+        <literalValue>Parts Ordered</literalValue>
+        <name>Update Parts Ordered</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Parts_Received</fullName>
+        <description>Update Status under Parts once date is added.</description>
+        <field>X6_Order_Parts__c</field>
+        <literalValue>Parts Received</literalValue>
+        <name>Update Parts Received</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Quality_Control_Report</fullName>
+        <description>Update Status under Quality Control once date is added.</description>
+        <field>X8_Quality_Control_Check__c</field>
+        <literalValue>Quality Control Check Completed</literalValue>
+        <name>Update Quality Control Report</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Change Drawing Requested Status</fullName>
+        <actions>
+            <name>Update_Drawings_Requested</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update the Status field once a date is entered in Drawings Requested field</description>
+        <formula>NOT(ISBLANK( X2_2_Drawings_Requested_Actual__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Drawings Received Status</fullName>
+        <actions>
+            <name>Update_Drawings_Received</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK( X2_4_Drawings_Obtained_Actual__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Estimate Completion</fullName>
+        <actions>
+            <name>Update_Estimate_Sent_to_Customer</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK ( X4_5_Estimate_Actual_Completion__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Estimate in Progress</fullName>
+        <actions>
+            <name>Update_Estimate_In_Progress</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK ( X4_2_Estimate_Actual_Start__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Inspection Completed</fullName>
+        <actions>
+            <name>Update_Inspection_Completed</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK ( X3A_4_Inspect_Actual_Completion__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Inspection in Progress</fullName>
+        <actions>
+            <name>Update_Inspection_In_Progress</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>NOT(ISBLANK ( X3A_2_Inspect_Actual_Start__c ))</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Parts Ordered</fullName>
+        <actions>
+            <name>Update_Parts_Ordered</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>IF( X6_1_Parts_Ordered__c , TRUE, FALSE)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Parts Received</fullName>
+        <actions>
+            <name>Update_Parts_Received</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>IF( X6_2_Parts_Received__c , TRUE, FALSE)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Change Quality Control Report</fullName>
+        <actions>
+            <name>Update_Quality_Control_Report</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>IF( X6_1_Quality_Control_Report__c , TRUE, FALSE)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Engineering Metric</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Work_Order__c.X3A_4_Inspect_Actual_Completion__c</field>
+            <operation>lessOrEqual</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Work_Order__c.X2_4_Final_Engineering_Report_in_Box__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

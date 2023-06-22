@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Membership_Approved</fullName>
+        <description>Membership Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>mikew@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sarahj@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_and_Marketing/Membership_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Membership_Rejected</fullName>
+        <description>Membership Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>sarahj@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Sales_and_Marketing/Membership_Rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Approved_By_to_No</fullName>
+        <description>Update Approved by Management to No</description>
+        <field>Approved_by_Management__c</field>
+        <literalValue>No</literalValue>
+        <name>Update Approved By to No</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_By_to_Pending</fullName>
+        <description>Update Approved by Management to Pending</description>
+        <field>Approved_by_Management__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Update Approved By to Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Approved_By_to_Yes</fullName>
+        <description>Update Approved by Management to Yes</description>
+        <field>Approved_by_Management__c</field>
+        <literalValue>Yes</literalValue>
+        <name>Update Approved By to Yes</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Main_Status</fullName>
+        <description>Update to Approved</description>
+        <field>Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Main Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_to_Identified</fullName>
+        <description>Ensure Membership/Subscription status is set to Identified</description>
+        <field>Status__c</field>
+        <literalValue>Identified</literalValue>
+        <name>Update Status to Identified</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

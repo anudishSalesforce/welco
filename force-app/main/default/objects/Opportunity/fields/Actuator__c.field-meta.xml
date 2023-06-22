@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Actuator__c</fullName>
+    <externalId>false</externalId>
+    <label>Actuator</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Air Cylinder</fullName>
+                <default>false</default>
+                <label>Air Cylinder</label>
+            </value>
+            <value>
+                <fullName>Bevel Gear</fullName>
+                <default>false</default>
+                <label>Bevel Gear</label>
+            </value>
+            <value>
+                <fullName>Electric</fullName>
+                <default>false</default>
+                <label>Electric</label>
+            </value>
+            <value>
+                <fullName>Hand Wheel</fullName>
+                <default>false</default>
+                <label>Hand Wheel</label>
+            </value>
+            <value>
+                <fullName>Hydraulic</fullName>
+                <default>false</default>
+                <label>Hydraulic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

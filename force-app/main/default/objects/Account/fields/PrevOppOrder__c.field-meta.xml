@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrevOppOrder__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Checkbox for cleaning up accounts for reasons including, has existing opportunities and equipment from the past that are not in Salesforce</description>
+    <externalId>false</externalId>
+    <label>Has Previous Opportunity/Order</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

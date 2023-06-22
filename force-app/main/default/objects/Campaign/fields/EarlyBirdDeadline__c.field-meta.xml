@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EarlyBirdDeadline__c</fullName>
+    <description>Early Bird date as requested by Marketing. Different from the Registration Deadline.</description>
+    <externalId>false</externalId>
+    <label>Early Bird Deadline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

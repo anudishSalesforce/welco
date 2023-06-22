@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAM001_Approved_by_Management</fullName>
+    <active>true</active>
+    <description>Approved by Management field can only be updated by users with Custom: Management profile</description>
+    <errorConditionFormula>(ISNEW()
+|| 
+ISCHANGED(Approved_by_Management__c))
+
+&amp;&amp;
+ISPICKVAL(Approved_by_Management__c, &quot;Yes&quot;)
+&amp;&amp;
+$Profile.Name &lt;&gt; &quot;Custom: Management&quot;</errorConditionFormula>
+    <errorDisplayField>Approved_by_Management__c</errorDisplayField>
+    <errorMessage>Error CAM001
+This field can only be updated by Management</errorMessage>
+</ValidationRule>

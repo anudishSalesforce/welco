@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunityRequiresKickoff__c</fullName>
+    <description>Used in validation rules to require kickoff meeting dates</description>
+    <externalId>false</externalId>
+    <formula>IF(
+ AND(
+     ISPICKVAL(Sale_Type__c, &quot;Regular&quot;),
+     ISPICKVAL(Opportunity_Type__c, &quot;Units&quot;),
+     DATEVALUE(CreatedDate) &gt;= DATE(2018,11,21),
+     NOT(OR(
+        ISPICKVAL( Type_of_Placement__c, &quot;Existing (Spare/Stock/Rotatable)&quot;),
+        ISPICKVAL( Type_of_Placement__c, &quot;Repair Replacement&quot;)
+        )),
+     NOT(OR(
+        ISPICKVAL(StageName, &quot;Closed Lost&quot;),
+        ISPICKVAL(StageName, &quot;Long Term Project&quot;)
+        ))
+    ),
+TRUE,
+FALSE
+)</formula>
+    <label>OpportunityRequiresKickoff</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

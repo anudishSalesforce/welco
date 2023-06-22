@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Name</fullName>
+    <businessOwnerUser>annat@welco.ca.traintest</businessOwnerUser>
+    <businessStatus>Active</businessStatus>
+    <description>Standard field for Opportunity Name</description>
+    <inlineHelpText>Naming Convention: (Qty) Product - Application/Project</inlineHelpText>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+</CustomField>

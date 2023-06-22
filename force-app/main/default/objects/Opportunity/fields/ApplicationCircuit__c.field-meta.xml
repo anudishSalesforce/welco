@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ApplicationCircuit__c</fullName>
+    <businessOwnerUser>mikew@welco.ca.traintest</businessOwnerUser>
+    <businessStatus>Active</businessStatus>
+    <description>Describes the location or circuit the equipment is in within the facility or plant as requested by MW</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Describe the location, application or circuit the equipment is in within the facility or plant.</inlineHelpText>
+    <label>Application/Circuit</label>
+    <length>255</length>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

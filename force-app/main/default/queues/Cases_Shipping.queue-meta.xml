@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>shipping@welco.ca</email>
+    <name>Cases - Shipping</name>
+    <queueMembers>
+        <users>
+            <user>shipping@welco.ca</user>
+            <user>rickh@welco.ca</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

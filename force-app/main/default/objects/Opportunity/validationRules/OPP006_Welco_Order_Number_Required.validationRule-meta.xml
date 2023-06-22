@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP006_Welco_Order_Number_Required</fullName>
+    <active>false</active>
+    <description>Order number required for closed won opportunities as requested by VP Ops</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL(StageName,&quot;Closed Won&quot;),
+  ISBLANK( Welco_Order__c )
+)</errorConditionFormula>
+    <errorDisplayField>Welco_Order__c</errorDisplayField>
+    <errorMessage>Error OPP006
+Please enter the order confirmation number</errorMessage>
+</ValidationRule>

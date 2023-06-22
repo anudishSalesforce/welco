@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry__c</fullName>
+    <description>To determine the main industry to marketing related initiatives.</description>
+    <externalId>false</externalId>
+    <label>Industry</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>*Mystery Meat*</fullName>
+                <default>false</default>
+                <label>*Mystery Meat*</label>
+            </value>
+            <value>
+                <fullName>Aggregate - Frac Sand</fullName>
+                <default>false</default>
+                <label>Aggregate - Frac Sand</label>
+            </value>
+            <value>
+                <fullName>Aggregate - Wash plant</fullName>
+                <default>false</default>
+                <label>Aggregate - Wash plant</label>
+            </value>
+            <value>
+                <fullName>Animal Food</fullName>
+                <default>false</default>
+                <label>Animal Food</label>
+            </value>
+            <value>
+                <fullName>Asphalt</fullName>
+                <default>false</default>
+                <label>Asphalt</label>
+            </value>
+            <value>
+                <fullName>Bakery Products</fullName>
+                <default>false</default>
+                <label>Bakery Products</label>
+            </value>
+            <value>
+                <fullName>Beverages &amp; Bottling</fullName>
+                <default>false</default>
+                <label>Beverages &amp; Bottling</label>
+            </value>
+            <value>
+                <fullName>Cannabis</fullName>
+                <default>false</default>
+                <label>Cannabis</label>
+            </value>
+            <value>
+                <fullName>Cement</fullName>
+                <default>false</default>
+                <label>Cement</label>
+            </value>
+            <value>
+                <fullName>Chemicals &amp; Plastics</fullName>
+                <default>false</default>
+                <label>Chemicals &amp; Plastics</label>
+            </value>
+            <value>
+                <fullName>Coffee</fullName>
+                <default>false</default>
+                <label>Coffee</label>
+            </value>
+            <value>
+                <fullName>Construction</fullName>
+                <default>false</default>
+                <label>Construction</label>
+            </value>
+            <value>
+                <fullName>Dairy Products</fullName>
+                <default>false</default>
+                <label>Dairy Products</label>
+            </value>
+            <value>
+                <fullName>Environmental &amp; Energy</fullName>
+                <default>false</default>
+                <label>Environmental &amp; Energy</label>
+            </value>
+            <value>
+                <fullName>EPC - Industrial</fullName>
+                <default>false</default>
+                <label>EPC - Industrial</label>
+            </value>
+            <value>
+                <fullName>EPC - Mining</fullName>
+                <default>false</default>
+                <label>EPC - Mining</label>
+            </value>
+            <value>
+                <fullName>EPC - Oil &amp; Gas</fullName>
+                <default>false</default>
+                <label>EPC - Oil &amp; Gas</label>
+            </value>
+            <value>
+                <fullName>Fire Protection</fullName>
+                <default>false</default>
+                <label>Fire Protection</label>
+            </value>
+            <value>
+                <fullName>Fruits &amp; Veggies</fullName>
+                <default>false</default>
+                <label>Fruits &amp; Veggies</label>
+            </value>
+            <value>
+                <fullName>Grain &amp; Pulse</fullName>
+                <default>false</default>
+                <label>Grain &amp; Pulse</label>
+            </value>
+            <value>
+                <fullName>Grain &amp; Pulse - Seeds</fullName>
+                <default>false</default>
+                <label>Grain &amp; Pulse - Seeds</label>
+            </value>
+            <value>
+                <fullName>Grain &amp; Pulse - Terminals</fullName>
+                <default>false</default>
+                <label>Grain &amp; Pulse - Terminals</label>
+            </value>
+            <value>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+                <label>HVAC</label>
+            </value>
+            <value>
+                <fullName>Landfills</fullName>
+                <default>false</default>
+                <label>Landfills</label>
+            </value>
+            <value>
+                <fullName>Meat Products</fullName>
+                <default>false</default>
+                <label>Meat Products</label>
+            </value>
+            <value>
+                <fullName>Metalworking</fullName>
+                <default>false</default>
+                <label>Metalworking</label>
+            </value>
+            <value>
+                <fullName>Mining - Coal</fullName>
+                <default>false</default>
+                <label>Mining - Coal</label>
+            </value>
+            <value>
+                <fullName>Mining - Hard Rock</fullName>
+                <default>false</default>
+                <label>Mining - Hard Rock</label>
+            </value>
+            <value>
+                <fullName>Mining - Industrial Minerals</fullName>
+                <default>false</default>
+                <label>Mining - Industrial Minerals</label>
+            </value>
+            <value>
+                <fullName>Mining - Oil Sands</fullName>
+                <default>false</default>
+                <label>Mining - Oil Sands</label>
+            </value>
+            <value>
+                <fullName>Mining - Potash</fullName>
+                <default>false</default>
+                <label>Mining - Potash</label>
+            </value>
+            <value>
+                <fullName>Municipal</fullName>
+                <default>false</default>
+                <label>Municipal</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas - Drilling</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas - Drilling</label>
+            </value>
+            <value>
+                <fullName>Oil &amp; Gas - Terminals</fullName>
+                <default>false</default>
+                <label>Oil &amp; Gas - Terminals</label>
+            </value>
+            <value>
+                <fullName>Oil Sands - Thermal</fullName>
+                <default>false</default>
+                <label>Oil Sands - Thermal</label>
+            </value>
+            <value>
+                <fullName>Packaging</fullName>
+                <default>false</default>
+                <label>Packaging</label>
+            </value>
+            <value>
+                <fullName>Pharmaceuticals &amp; Nutraceuticals</fullName>
+                <default>false</default>
+                <label>Pharmaceuticals &amp; Nutraceuticals</label>
+            </value>
+            <value>
+                <fullName>Potatoes &amp; Chips</fullName>
+                <default>false</default>
+                <label>Potatoes &amp; Chips</label>
+            </value>
+            <value>
+                <fullName>Power Plants - Coal</fullName>
+                <default>false</default>
+                <label>Power Plants - Coal</label>
+            </value>
+            <value>
+                <fullName>Power Plants - Gas</fullName>
+                <default>false</default>
+                <label>Power Plants - Gas</label>
+            </value>
+            <value>
+                <fullName>Power Plants - Hydro</fullName>
+                <default>false</default>
+                <label>Power Plants - Hydro</label>
+            </value>
+            <value>
+                <fullName>Pulp &amp; Paper</fullName>
+                <default>false</default>
+                <label>Pulp &amp; Paper</label>
+            </value>
+            <value>
+                <fullName>Recycling - Industrial &amp; Residential</fullName>
+                <default>false</default>
+                <label>Recycling - Industrial &amp; Residential</label>
+            </value>
+            <value>
+                <fullName>Recycling - Metals &amp; Rubbers</fullName>
+                <default>false</default>
+                <label>Recycling - Metals &amp; Rubbers</label>
+            </value>
+            <value>
+                <fullName>Refineries</fullName>
+                <default>false</default>
+                <label>Refineries</label>
+            </value>
+            <value>
+                <fullName>Reseller</fullName>
+                <default>false</default>
+                <label>Reseller</label>
+            </value>
+            <value>
+                <fullName>Sawmills</fullName>
+                <default>false</default>
+                <label>Sawmills</label>
+            </value>
+            <value>
+                <fullName>Seafood Products</fullName>
+                <default>false</default>
+                <label>Seafood Products</label>
+            </value>
+            <value>
+                <fullName>Spices &amp; Condiments</fullName>
+                <default>false</default>
+                <label>Spices &amp; Condiments</label>
+            </value>
+            <value>
+                <fullName>Sugar &amp; Confectionary</fullName>
+                <default>false</default>
+                <label>Sugar &amp; Confectionary</label>
+            </value>
+            <value>
+                <fullName>Warehousing &amp; Logistics - Cold Storage</fullName>
+                <default>false</default>
+                <label>Warehousing &amp; Logistics - Cold Storage</label>
+            </value>
+            <value>
+                <fullName>Warehousing &amp; Logistics - General</fullName>
+                <default>false</default>
+                <label>Warehousing &amp; Logistics - General</label>
+            </value>
+            <value>
+                <fullName>Warehousing &amp; Logistics - Transportation</fullName>
+                <default>false</default>
+                <label>Warehousing &amp; Logistics - Transportation</label>
+            </value>
+            <value>
+                <fullName>Waste Water</fullName>
+                <default>false</default>
+                <label>Waste Water</label>
+            </value>
+            <value>
+                <fullName>Water</fullName>
+                <default>false</default>
+                <label>Water</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accounts</fullName>
+        <default>false</default>
+        <label>Accounts</label>
+    </customValue>
+    <customValue>
+        <fullName>Blue Sky Cellar</fullName>
+        <default>false</default>
+        <label>Blue Sky Cellar</label>
+    </customValue>
+    <customValue>
+        <fullName>Box</fullName>
+        <default>false</default>
+        <label>Box</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaign Members</fullName>
+        <default>false</default>
+        <label>Campaign Members</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaigns &amp; Events</fullName>
+        <default>false</default>
+        <label>Campaigns &amp; Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Campaigns &amp; Events - Marketing Expenses</fullName>
+        <default>false</default>
+        <label>Campaigns &amp; Events - Marketing Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>Cases</fullName>
+        <default>false</default>
+        <label>Cases</label>
+    </customValue>
+    <customValue>
+        <fullName>Certifications</fullName>
+        <default>false</default>
+        <label>Certifications</label>
+    </customValue>
+    <customValue>
+        <fullName>Chatter</fullName>
+        <default>false</default>
+        <label>Chatter</label>
+    </customValue>
+    <customValue>
+        <fullName>Communities</fullName>
+        <default>false</default>
+        <label>Communities</label>
+    </customValue>
+    <customValue>
+        <fullName>Contacts</fullName>
+        <default>false</default>
+        <label>Contacts</label>
+    </customValue>
+    <customValue>
+        <fullName>Content</fullName>
+        <default>false</default>
+        <label>Content</label>
+    </customValue>
+    <customValue>
+        <fullName>Courses &amp; Sessions</fullName>
+        <default>false</default>
+        <label>Courses &amp; Sessions</label>
+    </customValue>
+    <customValue>
+        <fullName>Courses &amp; Sessions - Courses Expenses</fullName>
+        <default>false</default>
+        <label>Courses &amp; Sessions - Courses Expenses</label>
+    </customValue>
+    <customValue>
+        <fullName>Dashboards</fullName>
+        <default>false</default>
+        <label>Dashboards</label>
+    </customValue>
+    <customValue>
+        <fullName>Decisions</fullName>
+        <default>false</default>
+        <label>Decisions</label>
+    </customValue>
+    <customValue>
+        <fullName>Duplicate Record Items/Sets</fullName>
+        <default>false</default>
+        <label>Duplicate Record Items/Sets</label>
+    </customValue>
+    <customValue>
+        <fullName>Enrollments</fullName>
+        <default>false</default>
+        <label>Enrollments</label>
+    </customValue>
+    <customValue>
+        <fullName>Events</fullName>
+        <default>false</default>
+        <label>Events</label>
+    </customValue>
+    <customValue>
+        <fullName>Geopointe</fullName>
+        <default>false</default>
+        <label>Geopointe</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Picklists and Actions</fullName>
+        <default>false</default>
+        <label>Global Picklists and Actions</label>
+    </customValue>
+    <customValue>
+        <fullName>Groups</fullName>
+        <default>false</default>
+        <label>Groups</label>
+    </customValue>
+    <customValue>
+        <fullName>Home Page</fullName>
+        <default>false</default>
+        <label>Home Page</label>
+    </customValue>
+    <customValue>
+        <fullName>Instructors</fullName>
+        <default>false</default>
+        <label>Instructors</label>
+    </customValue>
+    <customValue>
+        <fullName>Requests</fullName>
+        <default>false</default>
+        <label>Issues &amp; Requests</label>
+    </customValue>
+    <customValue>
+        <fullName>Leads</fullName>
+        <default>false</default>
+        <label>Leads</label>
+    </customValue>
+    <customValue>
+        <fullName>Lightning App Page</fullName>
+        <default>false</default>
+        <label>Lightning App Page</label>
+    </customValue>
+    <customValue>
+        <fullName>Memberships &amp; Subscriptions</fullName>
+        <default>false</default>
+        <label>Memberships &amp; Subscriptions</label>
+    </customValue>
+    <customValue>
+        <fullName>Nav Bar Favourites</fullName>
+        <default>false</default>
+        <label>Nav Bar/Favourites</label>
+    </customValue>
+    <customValue>
+        <fullName>NCRs - NOT DEPLOYED</fullName>
+        <default>false</default>
+        <label>NCRs - NOT DEPLOYED</label>
+    </customValue>
+    <customValue>
+        <fullName>Opportunities</fullName>
+        <default>false</default>
+        <label>Opportunities</label>
+    </customValue>
+    <customValue>
+        <fullName>Reports</fullName>
+        <default>false</default>
+        <label>Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Sales Trips</fullName>
+        <default>false</default>
+        <label>Sales Trips</label>
+    </customValue>
+    <customValue>
+        <fullName>Tasks Activities</fullName>
+        <default>false</default>
+        <label>Tasks/Activities</label>
+    </customValue>
+    <customValue>
+        <fullName>User Badges</fullName>
+        <default>false</default>
+        <label>User Badges</label>
+    </customValue>
+    <customValue>
+        <fullName>UsersPeople</fullName>
+        <default>false</default>
+        <label>Users/People</label>
+    </customValue>
+    <customValue>
+        <fullName>Work Orders</fullName>
+        <default>false</default>
+        <label>Work Orders</label>
+    </customValue>
+    <description>List of objects in Salesforce for Issues/Requests and Content Management</description>
+    <masterLabel>Object/Item</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

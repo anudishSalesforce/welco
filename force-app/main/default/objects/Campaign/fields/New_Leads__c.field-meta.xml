@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Leads__c</fullName>
+    <description>count of total new leads in the campaign/event</description>
+    <externalId>false</externalId>
+    <label>New Leads</label>
+    <summaryFilterItems>
+        <field>CampaignMember.MemberStatusType__c</field>
+        <operation>equals</operation>
+        <value>New Lead</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CampaignMember.CampaignId</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

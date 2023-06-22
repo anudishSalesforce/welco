@@ -1,0 +1,68 @@
+.itemContainer{
+    display: flex;
+    flex-direction: column;
+
+}
+.linkContainer{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+}
+.linkContainer:first-child{
+    border-top: 1px solid rgba(128, 128, 128, 0.25);
+}
+.linkContainer:hover{
+    background-color: #00AFDB20;
+}
+.spLink{
+    padding: 0 1rem;
+}
+.fileImage{
+    width: 20px;
+}
+.accessButton{
+    background-color: #00AFDB;
+    color: #fff;
+}
+.sharepointTitleLogo{
+    width: 80px;
+}
+.lightning-card-background{
+    /* --sds-c-card-color-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,131,135,1) 35%, rgba(0,212,255,1) 100%); */
+}
+.lightningCardContent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.createFolderButton{
+    background-color: transparent;
+
+}
+.spinnerContainer{
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.link{
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+.link:hover{
+    text-decoration: none;
+}
+.new-window-icon{
+    --sds-c-icon-color-foreground-default: #000;
+    margin-left: .5rem;
+}
+.spSpinner{
+    justify-content: start;
+}
+.spLightningContainer{
+    position: relative;
+}

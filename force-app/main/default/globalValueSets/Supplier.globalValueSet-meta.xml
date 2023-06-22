@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A.R. Thomson</fullName>
+        <default>false</default>
+        <label>A.R. Thomson</label>
+    </customValue>
+    <customValue>
+        <fullName>Aesseal Canada Inc.</fullName>
+        <default>false</default>
+        <label>Aesseal Canada Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Albany Pump</fullName>
+        <default>false</default>
+        <label>Albany Pump</label>
+    </customValue>
+    <customValue>
+        <fullName>Allgaier</fullName>
+        <default>false</default>
+        <label>Allgaier</label>
+    </customValue>
+    <customValue>
+        <fullName>BDI</fullName>
+        <default>false</default>
+        <label>BDI</label>
+    </customValue>
+    <customValue>
+        <fullName>BJM Pumps</fullName>
+        <default>false</default>
+        <label>BJM Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>Cleveland Vibrator</fullName>
+        <default>false</default>
+        <label>Cleveland Vibrator</label>
+    </customValue>
+    <customValue>
+        <fullName>CMI</fullName>
+        <default>false</default>
+        <label>CMI</label>
+    </customValue>
+    <customValue>
+        <fullName>CSM Steel Fab</fullName>
+        <default>false</default>
+        <label>CSM Steel Fab</label>
+    </customValue>
+    <customValue>
+        <fullName>CTI</fullName>
+        <default>false</default>
+        <label>CTI</label>
+    </customValue>
+    <customValue>
+        <fullName>Cunningham</fullName>
+        <default>false</default>
+        <label>Cunningham</label>
+    </customValue>
+    <customValue>
+        <fullName>Elgin Separation Solutions</fullName>
+        <default>false</default>
+        <label>Elgin Separation Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Eriez</fullName>
+        <default>false</default>
+        <label>Eriez</label>
+    </customValue>
+    <customValue>
+        <fullName>Flexicon</fullName>
+        <default>false</default>
+        <label>Flexicon</label>
+    </customValue>
+    <customValue>
+        <fullName>FLSmidth Krebs</fullName>
+        <default>false</default>
+        <label>FLSmidth Krebs</label>
+    </customValue>
+    <customValue>
+        <fullName>FLSmidth PT</fullName>
+        <default>false</default>
+        <label>FLSmidth PT</label>
+    </customValue>
+    <customValue>
+        <fullName>FLSmidth SLC</fullName>
+        <default>false</default>
+        <label>FLSmidth Salt Lake City</label>
+    </customValue>
+    <customValue>
+        <fullName>HammerTek</fullName>
+        <default>false</default>
+        <label>HammerTek</label>
+    </customValue>
+    <customValue>
+        <fullName>Hy-Tran</fullName>
+        <default>false</default>
+        <label>Hy-Tran</label>
+    </customValue>
+    <customValue>
+        <fullName>Industrial Flow Solutions</fullName>
+        <default>false</default>
+        <label>Industrial Flow Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Jadco</fullName>
+        <default>false</default>
+        <label>Jadco</label>
+    </customValue>
+    <customValue>
+        <fullName>Miller-Leaman</fullName>
+        <default>false</default>
+        <label>Miller-Leaman</label>
+    </customValue>
+    <customValue>
+        <fullName>Mody Pumps</fullName>
+        <default>false</default>
+        <label>Mody Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>Motion Canada</fullName>
+        <default>false</default>
+        <label>Motion Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>Norris Screens</fullName>
+        <default>false</default>
+        <label>Norris Screens</label>
+    </customValue>
+    <customValue>
+        <fullName>Norwesco</fullName>
+        <default>false</default>
+        <label>Norwesco</label>
+    </customValue>
+    <customValue>
+        <fullName>Nu-Clean</fullName>
+        <default>false</default>
+        <label>Nu-Clean</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Polaris Pumps</fullName>
+        <default>false</default>
+        <label>Polaris Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>Ruhrpumpen</fullName>
+        <default>false</default>
+        <label>Ruhrpumpen</label>
+    </customValue>
+    <customValue>
+        <fullName>Saint Gobain</fullName>
+        <default>false</default>
+        <label>Saint Gobain</label>
+    </customValue>
+    <customValue>
+        <fullName>Sepro</fullName>
+        <default>false</default>
+        <label>Sepro</label>
+    </customValue>
+    <customValue>
+        <fullName>Simflo</fullName>
+        <default>false</default>
+        <label>Simflo</label>
+    </customValue>
+    <customValue>
+        <fullName>Tabor Machine</fullName>
+        <default>false</default>
+        <label>Tabor Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>TEMA</fullName>
+        <default>false</default>
+        <label>TEMA</label>
+    </customValue>
+    <customValue>
+        <fullName>Welco Service</fullName>
+        <default>false</default>
+        <label>Welco Service</label>
+    </customValue>
+    <customValue>
+        <fullName>Buffalo Wire</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Buffalo Wire</label>
+    </customValue>
+    <customValue>
+        <fullName>Sulzer Pumps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sulzer Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>Mod Power</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mod Power</label>
+    </customValue>
+    <customValue>
+        <fullName>ITT Engineered Valves</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ITT Engineered Valves</label>
+    </customValue>
+    <customValue>
+        <fullName>Keystone</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Keystone</label>
+    </customValue>
+    <customValue>
+        <fullName>Faggiolati</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Faggiolati</label>
+    </customValue>
+    <customValue>
+        <fullName>Mass</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Mass</label>
+    </customValue>
+    <customValue>
+        <fullName>Ragazzini</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Ragazzini</label>
+    </customValue>
+    <customValue>
+        <fullName>Thurston Machine</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Thurston Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>Vansan</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Vansan</label>
+    </customValue>
+    <customValue>
+        <fullName>Piller TSC</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Piller TSC</label>
+    </customValue>
+    <customValue>
+        <fullName>Varisco</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Varisco</label>
+    </customValue>
+    <customValue>
+        <fullName>Saer Elettropompe</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Saer Elettropompe</label>
+    </customValue>
+    <customValue>
+        <fullName>Tyco</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tyco</label>
+    </customValue>
+    <customValue>
+        <fullName>Koshin Pumps</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Koshin Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>MCI</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MCI</label>
+    </customValue>
+    <customValue>
+        <fullName>Sydex</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Sydex</label>
+    </customValue>
+    <customValue>
+        <fullName>Phoenix</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Phoenix</label>
+    </customValue>
+    <customValue>
+        <fullName>McLanahan</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>McLanahan</label>
+    </customValue>
+    <customValue>
+        <fullName>Lotus Mixers</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Lotus Mixers</label>
+    </customValue>
+    <customValue>
+        <fullName>Krebs Technequip Valves</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Krebs Technequip Valves</label>
+    </customValue>
+    <customValue>
+        <fullName>Krebs millMAX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Krebs millMAX</label>
+    </customValue>
+    <customValue>
+        <fullName>JOEST</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JOEST</label>
+    </customValue>
+    <customValue>
+        <fullName>HAUS</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>HAUS</label>
+    </customValue>
+    <customValue>
+        <fullName>Norris Screens - Cook Legacy</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Norris Screens - Cook Legacy</label>
+    </customValue>
+    <customValue>
+        <fullName>Allight Primax</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Allight Primax</label>
+    </customValue>
+    <customValue>
+        <fullName>SUM Canada</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SUM Canada</label>
+    </customValue>
+    <customValue>
+        <fullName>PECO InspX</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PECO InspX</label>
+    </customValue>
+    <customValue>
+        <fullName>Camcorp Inc.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Camcorp Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Univeyor</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Univeyor</label>
+    </customValue>
+    <customValue>
+        <fullName>James Brinkley</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>James Brinkley</label>
+    </customValue>
+    <customValue>
+        <fullName>Xylem</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Xylem</label>
+    </customValue>
+    <customValue>
+        <fullName>Compass Wire Cloth</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Compass Wire Cloth</label>
+    </customValue>
+    <customValue>
+        <fullName>Delta Screens</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Delta Screens</label>
+    </customValue>
+    <customValue>
+        <fullName>3P Prinz</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>3P Prinz</label>
+    </customValue>
+    <masterLabel>Supplier</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

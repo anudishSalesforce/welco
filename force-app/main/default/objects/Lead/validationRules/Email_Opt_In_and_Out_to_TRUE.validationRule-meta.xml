@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Opt_In_and_Out_to_TRUE</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(
+				AND (
+								Email_Opt_In__c = TRUE,
+								HasOptedOutOfEmail = TRUE
+				),
+				AND (
+								Email_Opt_In__c = FALSE,
+								HasOptedOutOfEmail = FALSE
+				)
+)</errorConditionFormula>
+    <errorMessage>Email Opt In and Email Opt Out cannot be TRUE or FALSE at the same time</errorMessage>
+</ValidationRule>

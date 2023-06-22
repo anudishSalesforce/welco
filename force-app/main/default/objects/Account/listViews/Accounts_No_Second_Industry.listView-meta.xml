@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_No_Second_Industry</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Primary_Industry__c</columns>
+    <columns>Secondary_Industry__c</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Primary_Industry__c</field>
+        <operation>equals</operation>
+        <value>Agriculture,Asphalt &amp; Cement,Consumables,Energy,EPC,Fabrications/Manufacturing,Forestry,Mining,Pharmaceuticals and Nutraceuticals,Recycling,Water</value>
+    </filters>
+    <filters>
+        <field>Secondary_Industry__c</field>
+        <operation>contains</operation>
+        <value>TBD - A&amp;C,TBD - Consumer,TBD - Energy,TBD - F&amp;M,TBD - Mining,TBD - P&amp;N,TBD - Recycle,TBD - Water</value>
+    </filters>
+    <label>Accounts No -Second Industry</label>
+</ListView>

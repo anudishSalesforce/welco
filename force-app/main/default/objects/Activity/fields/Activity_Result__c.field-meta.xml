@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Result__c</fullName>
+    <externalId>false</externalId>
+    <label>Activity Result</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Follow-up Required</fullName>
+                <default>false</default>
+                <label>Follow-up Required</label>
+            </value>
+            <value>
+                <fullName>No Answer</fullName>
+                <default>false</default>
+                <label>No Answer</label>
+            </value>
+            <value>
+                <fullName>Left Voicemail</fullName>
+                <default>false</default>
+                <label>Left Voicemail</label>
+            </value>
+            <value>
+                <fullName>Sent Email</fullName>
+                <default>false</default>
+                <label>Sent Email</label>
+            </value>
+            <value>
+                <fullName>New Contact Information</fullName>
+                <default>false</default>
+                <label>New Contact Information</label>
+            </value>
+            <value>
+                <fullName>Wrong Contact Information</fullName>
+                <default>false</default>
+                <label>Wrong Contact Information</label>
+            </value>
+            <value>
+                <fullName>Scheduled Site Visit</fullName>
+                <default>false</default>
+                <label>Scheduled Site Visit</label>
+            </value>
+            <value>
+                <fullName>Scheduled Service Call</fullName>
+                <default>false</default>
+                <label>Scheduled Service Call</label>
+            </value>
+            <value>
+                <fullName>Sent Quote</fullName>
+                <default>false</default>
+                <label>Sent Quote</label>
+            </value>
+            <value>
+                <fullName>Followed up with Quote</fullName>
+                <default>false</default>
+                <label>Followed up with Quote</label>
+            </value>
+            <value>
+                <fullName>New Opportunity</fullName>
+                <default>false</default>
+                <label>New Opportunity</label>
+            </value>
+            <value>
+                <fullName>Opportunity Update</fullName>
+                <default>false</default>
+                <label>Opportunity Update</label>
+            </value>
+            <value>
+                <fullName>General Update</fullName>
+                <default>false</default>
+                <label>General Update</label>
+            </value>
+            <value>
+                <fullName>No Potential</fullName>
+                <default>false</default>
+                <label>No Potential</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

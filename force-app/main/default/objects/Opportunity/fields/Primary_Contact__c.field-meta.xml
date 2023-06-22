@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_Contact__c</fullName>
+    <businessOwnerUser>annat@welco.ca.traintest</businessOwnerUser>
+    <businessStatus>Active</businessStatus>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>Used to lookup to Contacts to select the primary contact/person for this opportunity.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Primary contact for this opportunity and who the quote will be addressed to. Don&apos;t worry, you will be able to add more later.</inlineHelpText>
+    <label>Primary Contact</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Primary Contact of These Opportunities</relationshipLabel>
+    <relationshipName>PrimaryOpportunities</relationshipName>
+    <required>false</required>
+    <securityClassification>Internal</securityClassification>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

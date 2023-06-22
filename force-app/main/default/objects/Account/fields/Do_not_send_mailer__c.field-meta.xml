@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Do_not_send_mailer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Do not send future mailers to requested/unwanted or returned for reason.</description>
+    <externalId>false</externalId>
+    <label>Do not send mailer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

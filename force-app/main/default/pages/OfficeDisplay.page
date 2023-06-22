@@ -1,0 +1,5 @@
+<apex:page showheader="false" sidebar="false">
+<script type="text/javascript"> 
+window.location="/01ZE0000000AMdF"
+</script>
+</apex:page>

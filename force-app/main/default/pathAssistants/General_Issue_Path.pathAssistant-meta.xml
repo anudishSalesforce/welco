@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>IssueRequest__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>General Issue Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Description__c</fieldNames>
+        <fieldNames>Admin_Notes__c</fieldNames>
+        <picklistValueName>Deferred</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Related_Issue_Request__c</fieldNames>
+        <fieldNames>Description__c</fieldNames>
+        <fieldNames>Web_Page_Reference__c</fieldNames>
+        <fieldNames>Admin_Notes__c</fieldNames>
+        <picklistValueName>Gathering Information</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Reason__c</fieldNames>
+        <fieldNames>Admin_Notes__c</fieldNames>
+        <picklistValueName>Rejected/Cancelled</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Deployment_Date__c</fieldNames>
+        <fieldNames>Admin_Notes__c</fieldNames>
+        <picklistValueName>Resolved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Admin_Notes__c</fieldNames>
+        <fieldNames>Outstanding_Decisions__c</fieldNames>
+        <picklistValueName>Waiting for Approval</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>General</recordTypeName>
+</PathAssistant>

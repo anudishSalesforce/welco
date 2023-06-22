@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAS003_Resolved_Resolution_Outcome</fullName>
+    <active>false</active>
+    <description>Resolution Outcome be only be entered once Case has been Resolved.</description>
+    <errorConditionFormula>AND (
+OR (
+ISPICKVAL( Status, &quot;Open&quot; ),
+ISPICKVAL( Status, &quot;In Progress&quot; )
+),
+ISCHANGED( Resolution_Outcome__c )
+)</errorConditionFormula>
+    <errorDisplayField>Resolution_Outcome__c</errorDisplayField>
+    <errorMessage>Error CAS003
+Resolution Outcome can be entered once Case has been Resolved.</errorMessage>
+</ValidationRule>

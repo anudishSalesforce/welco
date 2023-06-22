@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AAA</fullName>
+        <default>false</default>
+        <label>AAA - No Category</label>
+    </customValue>
+    <customValue>
+        <fullName>AAO</fullName>
+        <default>false</default>
+        <label>AAO - No Category</label>
+    </customValue>
+    <customValue>
+        <fullName>AAP - One-time Vendor - Parts</fullName>
+        <default>false</default>
+        <label>AAP - One-time Vendor - Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>AAU - One-time Vendor - Units</fullName>
+        <default>false</default>
+        <label>AAU - One-time Vendor - Units</label>
+    </customValue>
+    <customValue>
+        <fullName>ACP</fullName>
+        <default>false</default>
+        <label>ACP - Albany Canada Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>ACU</fullName>
+        <default>false</default>
+        <label>ACU - Albany Canada Units</label>
+    </customValue>
+    <customValue>
+        <fullName>AEP Aesseal - Parts</fullName>
+        <default>false</default>
+        <label>AEP Aesseal - Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>ALD – Allgaier Direct Sales</fullName>
+        <default>false</default>
+        <label>ALD – Allgaier Direct Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>APP</fullName>
+        <default>false</default>
+        <label>APP - Albany UK Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>APU</fullName>
+        <default>false</default>
+        <label>APU - Albany UK Units</label>
+    </customValue>
+    <customValue>
+        <fullName>BDB</fullName>
+        <default>false</default>
+        <label>BDB - BDI Baskets</label>
+    </customValue>
+    <customValue>
+        <fullName>BDS</fullName>
+        <default>false</default>
+        <label>BDS - BDI Screens</label>
+    </customValue>
+    <customValue>
+        <fullName>BJP</fullName>
+        <default>false</default>
+        <label>BJP - BJM Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>BJU</fullName>
+        <default>false</default>
+        <label>BJU - BJM Units</label>
+    </customValue>
+    <customValue>
+        <fullName>CAD - Canamix Direct - Agitators</fullName>
+        <default>false</default>
+        <label>CAD - Canamix Direct - Agitators</label>
+    </customValue>
+    <customValue>
+        <fullName>CAP - Canamix - Agitator Parts</fullName>
+        <default>false</default>
+        <label>CAP - Canamix - Agitator Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>CAU - Canamix Agitators</fullName>
+        <default>false</default>
+        <label>CAU - Canamix Agitators</label>
+    </customValue>
+    <customValue>
+        <fullName>CEP</fullName>
+        <default>false</default>
+        <label>CEP - Ceramic Technology Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>CEU</fullName>
+        <default>false</default>
+        <label>CEU - Ceramic Technology Units</label>
+    </customValue>
+    <customValue>
+        <fullName>CLP</fullName>
+        <default>false</default>
+        <label>CLP - Clinch River Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>CLU</fullName>
+        <default>false</default>
+        <label>CLU - Clinch River Units</label>
+    </customValue>
+    <customValue>
+        <fullName>CMP</fullName>
+        <default>false</default>
+        <label>CMP - CMI Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>CMU</fullName>
+        <default>false</default>
+        <label>CMU - CMI Units</label>
+    </customValue>
+    <customValue>
+        <fullName>CPD - Canamix Direct - Peristaltic Pumps</fullName>
+        <default>false</default>
+        <label>CPD - Canamix Direct - Peristaltic Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>CPP - Canamix - Peristaltic Pump Parts</fullName>
+        <default>false</default>
+        <label>CPP - Canamix - Peristaltic Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>CPU - Canamix Peristaltic Pumps</fullName>
+        <default>false</default>
+        <label>CPU - Canamix Peristaltic Pumps</label>
+    </customValue>
+    <customValue>
+        <fullName>CSP - Fabricated Parts for Welco</fullName>
+        <default>false</default>
+        <label>CSP - Fabricated Parts for Welco</label>
+    </customValue>
+    <customValue>
+        <fullName>CUP</fullName>
+        <default>false</default>
+        <label>CUP - Cunningham Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>CUU</fullName>
+        <default>false</default>
+        <label>CUU - Cunningham Units</label>
+    </customValue>
+    <customValue>
+        <fullName>ELD - Eriez Direct - Flotation</fullName>
+        <default>false</default>
+        <label>ELD - Eriez Direct - Flotation</label>
+    </customValue>
+    <customValue>
+        <fullName>EMP</fullName>
+        <default>false</default>
+        <label>EMP - millMAX-e Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>EMU</fullName>
+        <default>false</default>
+        <label>EMU - millMAX-e Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>EPU - Elgin Separation Units</fullName>
+        <default>false</default>
+        <label>EPU - Elgin Separation Units</label>
+    </customValue>
+    <customValue>
+        <fullName>ERD-AGR</fullName>
+        <default>false</default>
+        <label>ERD-AGR - Agriteks Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>ERD</fullName>
+        <default>false</default>
+        <label>ERD - Eriez Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>FBP - Ferrocer Blocks</fullName>
+        <default>false</default>
+        <label>FBP - Ferrocer Blocks</label>
+    </customValue>
+    <customValue>
+        <fullName>FLD</fullName>
+        <default>false</default>
+        <label>FLD - Flexicon Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>FPD</fullName>
+        <default>false</default>
+        <label>FPD - FLSmidth PT Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>GRP - gravelMAX Pump Parts</fullName>
+        <default>false</default>
+        <label>GRP - gravelMAX Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>GRU - gravelMAX Pump Units</fullName>
+        <default>false</default>
+        <label>GRU - gravelMAX Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>HMD</fullName>
+        <default>false</default>
+        <label>HMD - HammerTek Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>HMP - hMAX Parts</fullName>
+        <default>false</default>
+        <label>HMP - hMAX Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>HMU - hMAX Units</fullName>
+        <default>false</default>
+        <label>HMU - hMAX Units</label>
+    </customValue>
+    <customValue>
+        <fullName>HYU</fullName>
+        <default>false</default>
+        <label>HYU - Hy-Tran</label>
+    </customValue>
+    <customValue>
+        <fullName>JAP</fullName>
+        <default>false</default>
+        <label>JAP - Jadco Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>KRA</fullName>
+        <default>false</default>
+        <label>KRA - Krebs Manifold Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>KRB - Krebs Manifold Accessories FOB Factory</fullName>
+        <default>false</default>
+        <label>KRB - Krebs Manifold Accessories FOB Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>KRO</fullName>
+        <default>false</default>
+        <label>KRO - Krebs Cyclone Parts - Oil Sands</label>
+    </customValue>
+    <customValue>
+        <fullName>KRP</fullName>
+        <default>false</default>
+        <label>KRP - Krebs Cyclone Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>KRR</fullName>
+        <default>false</default>
+        <label>KRR - Krebs Cyclone Parts and Unit Rebuilds</label>
+    </customValue>
+    <customValue>
+        <fullName>KRS</fullName>
+        <default>false</default>
+        <label>KRS - Krebs Spiral Units and Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>KRT - Krebs Third Party Vendor</fullName>
+        <default>false</default>
+        <label>KRT - Krebs Third Party Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>KRU</fullName>
+        <default>false</default>
+        <label>KRU - Krebs Cyclone Unit</label>
+    </customValue>
+    <customValue>
+        <fullName>KRV</fullName>
+        <default>false</default>
+        <label>KRV - Krebs Varisieves and Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>KRZ</fullName>
+        <default>false</default>
+        <label>KRZ - Krebs Services (e.g. testing)</label>
+    </customValue>
+    <customValue>
+        <fullName>LUD – Ludowici Direct Sales</fullName>
+        <default>false</default>
+        <label>LUD – Ludowici Direct Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>LUP - Ludowici Panels &amp; Parts</fullName>
+        <default>false</default>
+        <label>LUP - Ludowici Panels &amp; Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>LUS - Ludowici Screens, Sieves &amp; Static Box</fullName>
+        <default>false</default>
+        <label>LUS - Ludowici Screens, Sieves &amp; Static Box</label>
+    </customValue>
+    <customValue>
+        <fullName>MIP</fullName>
+        <default>false</default>
+        <label>MIP - Miller-Leaman Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>MIU</fullName>
+        <default>false</default>
+        <label>MIU - Miller-Leaman Units</label>
+    </customValue>
+    <customValue>
+        <fullName>MMA</fullName>
+        <default>false</default>
+        <label>MMA - millMAX Accessories</label>
+    </customValue>
+    <customValue>
+        <fullName>MMB - millMAX Accessories FOB Factory</fullName>
+        <default>false</default>
+        <label>MMB - millMAX Accessories FOB Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>MMO</fullName>
+        <default>false</default>
+        <label>MMO - millMAX Parts &gt; MM400 Castings</label>
+    </customValue>
+    <customValue>
+        <fullName>MMP</fullName>
+        <default>false</default>
+        <label>MMP - millMAX Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>MMR</fullName>
+        <default>false</default>
+        <label>MMR - millMAX Parts and Unit Rebuilds</label>
+    </customValue>
+    <customValue>
+        <fullName>MMS</fullName>
+        <default>false</default>
+        <label>MMS - millMAX SS Units - Potash</label>
+    </customValue>
+    <customValue>
+        <fullName>MMT - millMAX Third Party Vendor</fullName>
+        <default>false</default>
+        <label>MMT - millMAX Third Party Vendor</label>
+    </customValue>
+    <customValue>
+        <fullName>MMU</fullName>
+        <default>false</default>
+        <label>MMU - millMAX Units &lt;= MM400</label>
+    </customValue>
+    <customValue>
+        <fullName>MMV</fullName>
+        <default>false</default>
+        <label>MMV - millMAX Units &gt; MM400</label>
+    </customValue>
+    <customValue>
+        <fullName>MMY</fullName>
+        <default>false</default>
+        <label>MMY - millMAX Third Party Resale Items</label>
+    </customValue>
+    <customValue>
+        <fullName>MOP</fullName>
+        <default>false</default>
+        <label>MOP - Mody Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>MOU</fullName>
+        <default>false</default>
+        <label>MOU - Mody Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>NOD</fullName>
+        <default>false</default>
+        <label>NOD - Norris Screens Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>NOP</fullName>
+        <default>false</default>
+        <label>NOP - Norris Screens Panels</label>
+    </customValue>
+    <customValue>
+        <fullName>NOS</fullName>
+        <default>false</default>
+        <label>NOS - Norris Sieve Bends</label>
+    </customValue>
+    <customValue>
+        <fullName>NUD – Nu-Clean Direct Sales</fullName>
+        <default>false</default>
+        <label>NUD – Nu-Clean Direct Sales</label>
+    </customValue>
+    <customValue>
+        <fullName>POP</fullName>
+        <default>false</default>
+        <label>POP - Polaris Pumps Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>POU</fullName>
+        <default>false</default>
+        <label>POU - Polaris Pumps Units</label>
+    </customValue>
+    <customValue>
+        <fullName>RMP - slurryMAX XD Pump Parts</fullName>
+        <default>false</default>
+        <label>RMP - slurryMAX XD Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>RMU - slurryMAX XD Pump Units</fullName>
+        <default>false</default>
+        <label>RMU - slurryMAX XD Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>RUP</fullName>
+        <default>false</default>
+        <label>RUP - Ruhrpumpen Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>RUU</fullName>
+        <default>false</default>
+        <label>RUU - Ruhrpumpen Units</label>
+    </customValue>
+    <customValue>
+        <fullName>SAI</fullName>
+        <default>false</default>
+        <label>SAI - Saint Gobain</label>
+    </customValue>
+    <customValue>
+        <fullName>SIP</fullName>
+        <default>false</default>
+        <label>SIP - Simflo Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>SIU</fullName>
+        <default>false</default>
+        <label>SIU - Simflo Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>SMP - slurryMAX SC Pump Parts (NEW 2018)</fullName>
+        <default>false</default>
+        <label>SMP - slurryMAX SC Pump Parts (NEW 2018)</label>
+    </customValue>
+    <customValue>
+        <fullName>SMU - slurryMAX SC Pump Units (NEW 2018)</fullName>
+        <default>false</default>
+        <label>SMU - slurryMAX SC Pump Units (NEW 2018)</label>
+    </customValue>
+    <customValue>
+        <fullName>TAF</fullName>
+        <default>false</default>
+        <label>TAF - Tabor Large Units FOB Factory</label>
+    </customValue>
+    <customValue>
+        <fullName>TAP</fullName>
+        <default>false</default>
+        <label>TAP - Tabor Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TAU</fullName>
+        <default>false</default>
+        <label>TAU - Tabor Units</label>
+    </customValue>
+    <customValue>
+        <fullName>TGP</fullName>
+        <default>false</default>
+        <label>TGP - Technequip Knife Gate Valve Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TGU</fullName>
+        <default>false</default>
+        <label>TGU - Technequip Knife Gate Valve Units</label>
+    </customValue>
+    <customValue>
+        <fullName>TMP</fullName>
+        <default>false</default>
+        <label>TMP - Tema Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TTP</fullName>
+        <default>false</default>
+        <label>TTP - Tech-Taylor Valve Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TTU</fullName>
+        <default>false</default>
+        <label>TTU - Tech-Taylor Valve Units</label>
+    </customValue>
+    <customValue>
+        <fullName>TWP</fullName>
+        <default>false</default>
+        <label>TWP - Technequip Wafer Style Valve Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TWU</fullName>
+        <default>false</default>
+        <label>TWU - Technequip Wafer Style Valve Units</label>
+    </customValue>
+    <customValue>
+        <fullName>UMO</fullName>
+        <default>false</default>
+        <label>UMO - UMD Pump Parts &gt; UM400 Castings</label>
+    </customValue>
+    <customValue>
+        <fullName>UMP</fullName>
+        <default>false</default>
+        <label>UMP - UMD Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>UMU</fullName>
+        <default>false</default>
+        <label>UMU - UMD Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>VMP</fullName>
+        <default>false</default>
+        <label>VMP - vMAX Pump Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>VMU</fullName>
+        <default>false</default>
+        <label>VMU - vMAX Pump Units</label>
+    </customValue>
+    <customValue>
+        <fullName>WEP</fullName>
+        <default>false</default>
+        <label>WEP - Welco Service Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>WEU</fullName>
+        <default>false</default>
+        <label>WEU - Welco Service Units</label>
+    </customValue>
+    <customValue>
+        <fullName>WJC</fullName>
+        <default>false</default>
+        <label>WJC - Welco Reman Services</label>
+    </customValue>
+    <customValue>
+        <fullName>WMP</fullName>
+        <default>false</default>
+        <label>WMP - WearMAX Units</label>
+    </customValue>
+    <customValue>
+        <fullName>WWT - Welco Third Party</fullName>
+        <default>false</default>
+        <label>WWT - Welco Third Party</label>
+    </customValue>
+    <customValue>
+        <fullName>JOU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JOU - Joest Units</label>
+    </customValue>
+    <customValue>
+        <fullName>JOP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JOP - Joest Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>JOF</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JOF - Joest Large Units (FOB Factory)</label>
+    </customValue>
+    <customValue>
+        <fullName>JEP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JEP</label>
+    </customValue>
+    <customValue>
+        <fullName>GEU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GEU</label>
+    </customValue>
+    <customValue>
+        <fullName>GEP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>GEP</label>
+    </customValue>
+    <customValue>
+        <fullName>FLU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLU</label>
+    </customValue>
+    <customValue>
+        <fullName>FLP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FLP</label>
+    </customValue>
+    <customValue>
+        <fullName>FGU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FGU</label>
+    </customValue>
+    <customValue>
+        <fullName>FGP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FGP</label>
+    </customValue>
+    <customValue>
+        <fullName>FEB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FEB</label>
+    </customValue>
+    <customValue>
+        <fullName>UNP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNP</label>
+    </customValue>
+    <customValue>
+        <fullName>MCP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MCP - McLanahan Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>MCU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MCU - McLanahan Units</label>
+    </customValue>
+    <customValue>
+        <fullName>MSP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MSP</label>
+    </customValue>
+    <customValue>
+        <fullName>MSU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MSU</label>
+    </customValue>
+    <customValue>
+        <fullName>NOW</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>NOW - Norris Water Intake (Cook Legacy)</label>
+    </customValue>
+    <customValue>
+        <fullName>SRP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SRP</label>
+    </customValue>
+    <customValue>
+        <fullName>SRU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SRU</label>
+    </customValue>
+    <customValue>
+        <fullName>STP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STP</label>
+    </customValue>
+    <customValue>
+        <fullName>STU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>STU</label>
+    </customValue>
+    <customValue>
+        <fullName>SYP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SYP</label>
+    </customValue>
+    <customValue>
+        <fullName>SYU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SYU - Sydex Units</label>
+    </customValue>
+    <customValue>
+        <fullName>VAP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VAP</label>
+    </customValue>
+    <customValue>
+        <fullName>VAU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VAU</label>
+    </customValue>
+    <customValue>
+        <fullName>VRP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VRP</label>
+    </customValue>
+    <customValue>
+        <fullName>VRU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>VRU</label>
+    </customValue>
+    <customValue>
+        <fullName>SUP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SUP</label>
+    </customValue>
+    <customValue>
+        <fullName>SUU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SUU - Sulzer Units</label>
+    </customValue>
+    <customValue>
+        <fullName>TYP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TYP - Tyco Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>TYU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TYU - Tyco Units</label>
+    </customValue>
+    <customValue>
+        <fullName>KEP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEP</label>
+    </customValue>
+    <customValue>
+        <fullName>SUB</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>SUB - SUM Canada Blankets</label>
+    </customValue>
+    <customValue>
+        <fullName>FAU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FAU - ITT Fabrivalve Units</label>
+    </customValue>
+    <customValue>
+        <fullName>FAP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FAP</label>
+    </customValue>
+    <customValue>
+        <fullName>ERL</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>ERL - Eriez Lifting Magnets</label>
+    </customValue>
+    <customValue>
+        <fullName>MCD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>MCD - McLanahan Direct</label>
+    </customValue>
+    <customValue>
+        <fullName>BFU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BFU - Buffalo Wire Units</label>
+    </customValue>
+    <customValue>
+        <fullName>BFP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>BFP</label>
+    </customValue>
+    <customValue>
+        <fullName>DIU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DIU</label>
+    </customValue>
+    <customValue>
+        <fullName>DIP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DIP</label>
+    </customValue>
+    <customValue>
+        <fullName>CAP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CAP</label>
+    </customValue>
+    <customValue>
+        <fullName>CAU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CAU - Camcorp Inc. Units</label>
+    </customValue>
+    <customValue>
+        <fullName>PCU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PCU - PECO InspX Units</label>
+    </customValue>
+    <customValue>
+        <fullName>PCP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PCP</label>
+    </customValue>
+    <customValue>
+        <fullName>CWU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CWU - Compass Wire Cloth Units</label>
+    </customValue>
+    <customValue>
+        <fullName>CWP</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CWP - Compass Wire Cloth Parts</label>
+    </customValue>
+    <customValue>
+        <fullName>FYU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>FYU - Xylem Units</label>
+    </customValue>
+    <customValue>
+        <fullName>KEU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>KEU - Keystone Units</label>
+    </customValue>
+    <customValue>
+        <fullName>UNU</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>UNU</label>
+    </customValue>
+    <masterLabel>Category Code</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

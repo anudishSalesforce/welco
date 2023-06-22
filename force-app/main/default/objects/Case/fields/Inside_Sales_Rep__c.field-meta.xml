@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inside_Sales_Rep__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Ties the Inside Sales member to the case for information accuracy and accountability.</inlineHelpText>
+    <label>Inside Sales Rep</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Carolina Arno</fullName>
+                <default>false</default>
+                <label>Carolina Arno</label>
+            </value>
+            <value>
+                <fullName>Jessica Holt</fullName>
+                <default>false</default>
+                <label>Jessica Holt</label>
+            </value>
+            <value>
+                <fullName>Marcel Rodriguez</fullName>
+                <default>false</default>
+                <label>Marcel Rodriguez</label>
+            </value>
+            <value>
+                <fullName>Tiffany Clark</fullName>
+                <default>false</default>
+                <label>Tiffany Clark</label>
+            </value>
+            <value>
+                <fullName>Constance Chung</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Constance Chung</label>
+            </value>
+            <value>
+                <fullName>Jasmine Rattanaviboun</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Jasmine Rattanaviboun</label>
+            </value>
+            <value>
+                <fullName>Kate Romanovskaya</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kate Romanovskaya</label>
+            </value>
+            <value>
+                <fullName>Lauren Spierenburg</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Lauren Spierenburg</label>
+            </value>
+            <value>
+                <fullName>Melissa Deering</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Melissa Deering</label>
+            </value>
+            <value>
+                <fullName>Rebekah Burgeson</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rebekah Burgeson</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

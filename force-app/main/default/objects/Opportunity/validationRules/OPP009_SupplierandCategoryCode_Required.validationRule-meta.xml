@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OPP009_SupplierandCategoryCode_Required</fullName>
+    <active>true</active>
+    <description>Supplier and Category Code required when advancing past Submitted to Engineering and Inside Sales</description>
+    <errorConditionFormula>AND(
+   OR(
+      ISPICKVAL(StageName, &quot;Negotiation/Review&quot;),
+      ISPICKVAL(StageName, &quot;Closed Won&quot;)
+     ),
+     /*stage is Negotiation or Won*/
+
+   OR(
+      ISBLANK(TEXT(Supplier__c)),
+      ISBLANK(TEXT(Category_Code__c))
+     )
+    /*and Supplier or Category Code is blank, then error message displays*/
+
+  )</errorConditionFormula>
+    <errorDisplayField>Supplier__c</errorDisplayField>
+    <errorMessage>Error OPP009
+Please select the Supplier and Category Code</errorMessage>
+</ValidationRule>

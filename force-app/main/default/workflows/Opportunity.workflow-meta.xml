@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Opportunity_Closed_Alert</fullName>
+        <description>Opportunity Closed Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>mikew@welco.ca</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Opportunities/Opportunity_Closed</template>
+    </alerts>
+    <alerts>
+        <fullName>StageUpdateSubmitted_to_Engineering</fullName>
+        <description>Stage Update - Submitted to Engineering</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Engineering</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Opportunities/Stage_Change_Submitted_to_Engineering</template>
+    </alerts>
+    <alerts>
+        <fullName>StageUpdateSubmitted_to_InsideSales</fullName>
+        <description>Stage Update - Submitted to Inside Sales</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>InsideSales</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Opportunities/Stage_Change_Submitted_to_Inside_Sales</template>
+    </alerts>
+    <alerts>
+        <fullName>StageUpdate_QuoteGenerated</fullName>
+        <description>Stage Update - Quote Generated</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Opportunities/Stage_Change_QuoteGenerated</template>
+    </alerts>
+    <alerts>
+        <fullName>Stage_Update_Closed_Lost</fullName>
+        <description>Stage Update - Closed Lost</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>InsideSales</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Opportunities/Stage_Change_Closed_Lost</template>
+    </alerts>
+    <alerts>
+        <fullName>Stage_Update_Kickoff_Meeting</fullName>
+        <description>Stage Update - Kickoff Meeting</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>InsideSales</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Opportunities/Stage_Change_Kickoff_Meeting</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Previous_Steps_Opp</fullName>
+        <description>Update Previous Steps once Next Step DateTime has been updated</description>
+        <field>Previous_Steps__c</field>
+        <formula>BR()
++ &quot;- &quot;
++ TEXT(MONTH(DATEVALUE(PRIORVALUE(  Next_Step_DateTime__c ))))
++ &quot;/&quot;
++ TEXT(DAY(DATEVALUE(PRIORVALUE( Next_Step_DateTime__c ))))
++ &quot;/&quot;
++ TEXT(YEAR(DATEVALUE(PRIORVALUE( Next_Step_DateTime__c ))))
++ &quot;: &quot;
++ PRIORVALUE( NextStep )
++ &quot; -&quot;
++ PRIORVALUE ( NextStepEditorAlias__c )
++ BR()
++  Previous_Steps__c</formula>
+        <name>Update Previous Steps - Opportunities</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Unit</fullName>
+        <field>Units_Forecasting__c</field>
+        <formula>Units__c</formula>
+        <name>Update Unit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Next Step DateTime is Changed - Opportunities</fullName>
+        <actions>
+            <name>Update_Previous_Steps_Opp</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Previous Steps with existing Next Step DateTime and Next Step when new Next Step is entered, and after Next Step DateTime has changed.</description>
+        <formula>ISCHANGED(  Next_Step_DateTime__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Units Update</fullName>
+        <actions>
+            <name>Update_Unit</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>This workflow updates the Number Type Unit to the Currency Type Unit for forecasting</description>
+        <formula>true</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Last Modified Date - Custom Field</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.LastModifiedById</field>
+            <operation>notContain</operation>
+            <value>Anna,Rollup</value>
+        </criteriaItems>
+        <description>Used to update the last modified date temporarily when edited by specific profiles only.
+
+Standard, Inside Sales, Support</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

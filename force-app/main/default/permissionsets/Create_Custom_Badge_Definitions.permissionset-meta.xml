@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Decide which members can create recognition badges. Restricting who can do so helps control the number of badges in your community and maintains the value of a badge.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Create Custom Badge Definitions</label>
+    <license>Salesforce</license>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>CreateWorkBadgeDefinition</name>
+    </userPermissions>
+</PermissionSet>

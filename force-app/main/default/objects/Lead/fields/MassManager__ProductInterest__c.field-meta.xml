@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MassManager__ProductInterest__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Product Interest</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bulk Material Handling</fullName>
+                <default>false</default>
+                <label>Bulk Material Handling</label>
+            </value>
+            <value>
+                <fullName>Compressors</fullName>
+                <default>false</default>
+                <label>Compressors</label>
+            </value>
+            <value>
+                <fullName>Heating &amp; Cooling Systems</fullName>
+                <default>false</default>
+                <label>Heating &amp; Cooling Systems</label>
+            </value>
+            <value>
+                <fullName>Mixers &amp; Agitators</fullName>
+                <default>false</default>
+                <label>Mixers &amp; Agitators</label>
+            </value>
+            <value>
+                <fullName>Pumps</fullName>
+                <default>false</default>
+                <label>Pumps</label>
+            </value>
+            <value>
+                <fullName>Sanitary Conveying</fullName>
+                <default>false</default>
+                <label>Sanitary Conveying</label>
+            </value>
+            <value>
+                <fullName>Screening Machines</fullName>
+                <default>false</default>
+                <label>Screening Machines</label>
+            </value>
+            <value>
+                <fullName>Separation</fullName>
+                <default>false</default>
+                <label>Separation</label>
+            </value>
+            <value>
+                <fullName>Sizers</fullName>
+                <default>false</default>
+                <label>Sizers</label>
+            </value>
+            <value>
+                <fullName>Sorting Systems</fullName>
+                <default>false</default>
+                <label>Sorting Systems</label>
+            </value>
+            <value>
+                <fullName>Valves</fullName>
+                <default>false</default>
+                <label>Valves</label>
+            </value>
+            <value>
+                <fullName>Wear Resistance</fullName>
+                <default>false</default>
+                <label>Wear Resistance</label>
+            </value>
+            <value>
+                <fullName>Service &amp; Repairs</fullName>
+                <default>false</default>
+                <label>Service &amp; Repairs</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost__c</fullName>
+    <description>Calculates total cost from Marketing Expenses</description>
+    <externalId>false</externalId>
+    <label>Total Cost</label>
+    <summarizedField>Marketing_Expense__c.Amount__c</summarizedField>
+    <summaryForeignKey>Marketing_Expense__c.Campaign_Event__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

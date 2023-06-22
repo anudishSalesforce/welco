@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Family__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ERL - Eriez Lifting Magnets</fullName>
+                <default>false</default>
+                <label>ERL - Eriez Lifting Magnets</label>
+            </value>
+            <value>
+                <fullName>ERM - Eriez Metal Detection</fullName>
+                <default>false</default>
+                <label>ERM - Eriez Metal Detection</label>
+            </value>
+            <value>
+                <fullName>ERP - Eriez ProGrade</fullName>
+                <default>false</default>
+                <label>ERP - Eriez ProGrade</label>
+            </value>
+            <value>
+                <fullName>ERU - Eriez Units (Separation)</fullName>
+                <default>false</default>
+                <label>ERU - Eriez Units (Separation)</label>
+            </value>
+            <value>
+                <fullName>ERV - Eriez Vibratory</fullName>
+                <default>false</default>
+                <label>ERV - Eriez Vibratory</label>
+            </value>
+            <value>
+                <fullName>GMU - gravelMAX Pump Units</fullName>
+                <default>false</default>
+                <label>GMU - gravelMAX Pump Units</label>
+            </value>
+            <value>
+                <fullName>KRU - Krebs Cyclone Units</fullName>
+                <default>false</default>
+                <label>KRU - Krebs Cyclone Units</label>
+            </value>
+            <value>
+                <fullName>MMS - millMAX Units w/ Stainless Steel</fullName>
+                <default>false</default>
+                <label>MMS - millMAX Units w/ Stainless Steel</label>
+            </value>
+            <value>
+                <fullName>MMU - millMAX Units</fullName>
+                <default>false</default>
+                <label>MMU - millMAX Units</label>
+            </value>
+            <value>
+                <fullName>RMU - slurryMAX Units</fullName>
+                <default>false</default>
+                <label>RMU - slurryMAX Units</label>
+            </value>
+            <value>
+                <fullName>TGU - Technegate Knifegate Units</fullName>
+                <default>false</default>
+                <label>TGU - Technegate Knifegate Units</label>
+            </value>
+            <value>
+                <fullName>VMU - vMAX Pump Units</fullName>
+                <default>false</default>
+                <label>VMU - vMAX Pump Units</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>8</visibleLines>
+</CustomField>

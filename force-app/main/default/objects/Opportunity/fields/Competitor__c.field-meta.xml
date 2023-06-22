@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>If Competitor Replacement is selected above, please select the competitor for the equipment we are replacing.</inlineHelpText>
+    <label>Equipment Competitor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allis-Chalmers</fullName>
+                <default>false</default>
+                <label>Allis-Chalmers</label>
+            </value>
+            <value>
+                <fullName>Clarkson</fullName>
+                <default>false</default>
+                <label>Clarkson</label>
+            </value>
+            <value>
+                <fullName>Conweld</fullName>
+                <default>false</default>
+                <label>Conweld</label>
+            </value>
+            <value>
+                <fullName>Delta</fullName>
+                <default>false</default>
+                <label>Delta</label>
+            </value>
+            <value>
+                <fullName>Dorr-Oliver</fullName>
+                <default>false</default>
+                <label>Dorr-Oliver</label>
+            </value>
+            <value>
+                <fullName>Flowserve</fullName>
+                <default>false</default>
+                <label>Flowserve</label>
+            </value>
+            <value>
+                <fullName>Flygt Xylem</fullName>
+                <default>false</default>
+                <label>Flygt/Xylem</label>
+            </value>
+            <value>
+                <fullName>GIW</fullName>
+                <default>false</default>
+                <label>GIW</label>
+            </value>
+            <value>
+                <fullName>GPM Inc.</fullName>
+                <default>false</default>
+                <label>GPM Inc.</label>
+            </value>
+            <value>
+                <fullName>ITT Fabri-Valves</fullName>
+                <default>false</default>
+                <label>ITT Fabri-Valves</label>
+            </value>
+            <value>
+                <fullName>ITT Goulds</fullName>
+                <default>false</default>
+                <label>ITT Goulds</label>
+            </value>
+            <value>
+                <fullName>KGC</fullName>
+                <default>false</default>
+                <label>KGC</label>
+            </value>
+            <value>
+                <fullName>Koshin</fullName>
+                <default>false</default>
+                <label>Koshin</label>
+            </value>
+            <value>
+                <fullName>Larox Valves</fullName>
+                <default>false</default>
+                <label>Larox Valves</label>
+            </value>
+            <value>
+                <fullName>Linatex</fullName>
+                <default>false</default>
+                <label>Linatex</label>
+            </value>
+            <value>
+                <fullName>Metso</fullName>
+                <default>false</default>
+                <label>Metso</label>
+            </value>
+            <value>
+                <fullName>Multotec</fullName>
+                <default>false</default>
+                <label>Multotec</label>
+            </value>
+            <value>
+                <fullName>Murray-Latta</fullName>
+                <default>false</default>
+                <label>Murray-Latta</label>
+            </value>
+            <value>
+                <fullName>Other (Please Specify)</fullName>
+                <default>false</default>
+                <label>Other (Please Specify)</label>
+            </value>
+            <value>
+                <fullName>Rovalve</fullName>
+                <default>false</default>
+                <label>Rovalve</label>
+            </value>
+            <value>
+                <fullName>S.P.R.S Specialty Products</fullName>
+                <default>false</default>
+                <label>S.P.R.S Specialty Products</label>
+            </value>
+            <value>
+                <fullName>Schurco</fullName>
+                <default>false</default>
+                <label>Schurco</label>
+            </value>
+            <value>
+                <fullName>Toyo Pumps</fullName>
+                <default>false</default>
+                <label>Toyo Pumps</label>
+            </value>
+            <value>
+                <fullName>Tyco</fullName>
+                <default>false</default>
+                <label>Tyco</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>Warman</fullName>
+                <default>false</default>
+                <label>Warman</label>
+            </value>
+            <value>
+                <fullName>Weir Ash</fullName>
+                <default>false</default>
+                <label>Weir Ash</label>
+            </value>
+            <value>
+                <fullName>Weir Cavex</fullName>
+                <default>false</default>
+                <label>Weir Cavex</label>
+            </value>
+            <value>
+                <fullName>Weir Hazelton</fullName>
+                <default>false</default>
+                <label>Weir Hazelton</label>
+            </value>
+            <value>
+                <fullName>Wey</fullName>
+                <default>false</default>
+                <label>Wey (Sistag)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

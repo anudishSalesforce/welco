@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Accommodation</fullName>
+        <default>false</default>
+        <label>Accommodation</label>
+    </customValue>
+    <customValue>
+        <fullName>Advertisement - Online</fullName>
+        <default>false</default>
+        <label>Advertisement - Online</label>
+    </customValue>
+    <customValue>
+        <fullName>Advertisement - Print</fullName>
+        <default>false</default>
+        <label>Advertisement - Print</label>
+    </customValue>
+    <customValue>
+        <fullName>Booth/Registration</fullName>
+        <default>false</default>
+        <label>Booth/Registration</label>
+    </customValue>
+    <customValue>
+        <fullName>Car Rental/Taxi</fullName>
+        <default>false</default>
+        <label>Car Rental/Taxi</label>
+    </customValue>
+    <customValue>
+        <fullName>Flight</fullName>
+        <default>false</default>
+        <label>Flight</label>
+    </customValue>
+    <customValue>
+        <fullName>Furnishing/Decor</fullName>
+        <default>false</default>
+        <label>Furnishing/Decor</label>
+    </customValue>
+    <customValue>
+        <fullName>Graphic Design</fullName>
+        <default>false</default>
+        <label>Graphic Design</label>
+    </customValue>
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>Meal</fullName>
+        <default>false</default>
+        <label>Meal</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Postage</fullName>
+        <default>false</default>
+        <label>Postage</label>
+    </customValue>
+    <customValue>
+        <fullName>Printing</fullName>
+        <default>false</default>
+        <label>Printing</label>
+    </customValue>
+    <customValue>
+        <fullName>Seminar/Workshop</fullName>
+        <default>false</default>
+        <label>Seminar/Workshop</label>
+    </customValue>
+    <customValue>
+        <fullName>Shipping</fullName>
+        <default>false</default>
+        <label>Shipping</label>
+    </customValue>
+    <customValue>
+        <fullName>Sponsorship</fullName>
+        <default>false</default>
+        <label>Sponsorship</label>
+    </customValue>
+    <customValue>
+        <fullName>Accomodation</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Accomodation</label>
+    </customValue>
+    <description>List of different expense types including training, marketing, etc.</description>
+    <masterLabel>Expense Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

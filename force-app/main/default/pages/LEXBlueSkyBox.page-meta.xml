@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>36.0</apiVersion>
+    <availableInTouch>true</availableInTouch>
+    <confirmationTokenRequired>false</confirmationTokenRequired>
+    <description>Updated code for Blue Sky Box Widget for v3.40 or newer.</description>
+    <label>LEXBlueSkyBox</label>
+    <packageVersions>
+        <majorNumber>3</majorNumber>
+        <minorNumber>41</minorNumber>
+        <namespace>box</namespace>
+    </packageVersions>
+</ApexPage>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CasesMG</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>Equipment__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Next_Step__c</columns>
+    <columns>Age__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Open,In Progress</value>
+    </filters>
+    <filters>
+        <field>AccountOwnerAlias__c</field>
+        <operation>equals</operation>
+        <value>MG</value>
+    </filters>
+    <label>Open Cases - MG</label>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

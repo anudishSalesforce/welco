@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LEA001_No_Potential_Explanation_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL( Status , &quot;No Potential&quot;),
+ISBLANK( No_Potential_Explanation__c )
+)</errorConditionFormula>
+    <errorDisplayField>No_Potential_Explanation__c</errorDisplayField>
+    <errorMessage>Error LEA001
+You must provide a reason for marking the lead as No Potential.</errorMessage>
+</ValidationRule>
